@@ -17,7 +17,7 @@
 
 ## 架构
 
-![架构图](http://doc.hpplay.com.cn/server/index.php?s=/api/attachment/visitFile/sign/2e2117f0ca97cf599a7fc5b26b9d4d06)
+![架构图](https://doc.hpplay.com.cn/Public/Uploads/2025-10-21/68f6f125d107d.png)
 
 - ButtonClicked
   在 Unity 中一个脚本文件，主要是用来关联 Unity 层的按钮事件
