@@ -10,7 +10,7 @@
 #import <LBLelinkKit/LBLelinkKit.h>
 #import <LBReplayAppKit/LBReplayAppKit.h>
 #import <ReplayKit/ReplayKit.h>
-#import <TuanjieFramework/TuanjieFramework.h>
+#import <UnityFramework/UnityFramework.h>
 
 #define TAG @"LBAPIBridge"
 // 重定义 NSLog，增加日志前缀
@@ -138,7 +138,9 @@ extern "C" {
 }
 
 -(void)stopMirror{
-    [[LBLelinkMirrorEngine shareInstance] stopExtensionApp];
+//    [[LBLelinkMirrorEngine shareInstance] stopExtensionApp];
+    [self showBroadcastPickerCompleteBlock:^(BOOL succeed, NSString *serviceName, NSError *error) {
+    }];
 }
 
 #pragma mark - Private
@@ -166,7 +168,7 @@ extern "C" {
         NSString *string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
         NSLog(@"准备回调 : %@", string);
         
-        [[TuanjieFramework getInstance] sendMessageToGOWithName:"LelinkSDK" 
+        [[UnityFramework getInstance] sendMessageToGOWithName:"LelinkSDK"
                                                    functionName:"callFromIOS"
                                                         message:[string UTF8String]];
     });
