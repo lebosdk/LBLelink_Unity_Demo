@@ -1,0 +1,105 @@
+{
+    "key_map_new": [
+        {
+            "input_type": 1,
+            "map_list": [
+                {
+                    "key_type": 0,
+                    "input_cmd": [
+                        29
+                    ],
+                    "clickType": 0,
+                    "longClickTimeOut": 3000,
+                    "output": [
+                        {
+                            "rspType": 0,
+                            "output_cmd": [
+                                {
+                                    "output_type": 2,
+                                    "cmd": [
+                                        1,
+                                        2
+                                    ]
+                                },
+                                {
+                                    "output_type": 2,
+                                    "cmd": [
+                                        3,
+                                        4
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "rspType": 1,
+                            "output_cmd": [
+                                {
+                                    "output_type": 1,
+                                    "cmd": [
+                                        1,
+                                        2
+                                    ]
+                                },
+                                {
+                                    "output_type": 1,
+                                    "cmd": [
+                                        3,
+                                        4
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+                ,{
+                    "key_type": 0,
+                    "input_cmd": [
+                        29
+                    ],
+                    "clickType": 1,
+                    "longClickTimeOut": 3000,
+                    "output": [
+                        {
+                            "rspType": 0,
+                            "output_cmd": [
+                                {
+                                    "output_type": 2,
+                                    "cmd": [
+                                        1,
+                                        2
+                                    ]
+                                },
+                                {
+                                    "output_type": 2,
+                                    "cmd": [
+                                        3,
+                                        4
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "rspType": 1,
+                            "output_cmd": [
+                                {
+                                    "output_type": 1,
+                                    "cmd": [
+                                        1,
+                                        2
+                                    ]
+                                },
+                                {
+                                    "output_type": 1,
+                                    "cmd": [
+                                        3,
+                                        4
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

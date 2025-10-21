@@ -1,0 +1,405 @@
+{
+    "mode": -1,
+    "name": "常规手柄",
+    "default_mouse_enable": 0,
+    "default_mouse_mode": 0,
+    "game_mouse_sensitivity": 0,
+    "keys": [
+        {
+            "id": 1,
+            "keyData": {
+                "bgH": "controller_select_highlight_uia",
+                "bgN": "controller_select_uia",
+                "cmd": [
+                    32
+                ],
+                "src": "",
+                "name": "",
+                "desc": "",
+                "viewType": 100,
+                "pressMode": 1
+            },
+            "keyLayout": {
+                "top": 5,
+                "left": 70,
+                "size": 1,
+                "width": 80,
+                "height": 50
+            }
+        },
+        {
+            "id": 2,
+            "keyData": {
+                "bgH": "controller_start_highlight_uia",
+                "bgN": "controller_start_uia",
+                "cmd": [
+                    16
+                ],
+                "src": "",
+                "name": "",
+                "desc": "",
+                "viewType": 100,
+                "pressMode": 1
+            },
+            "keyLayout": {
+                "top": 5,
+                "size": 1,
+                "right": 160,
+                "width": 80,
+                "height": 50
+            }
+        },
+        {
+            "id": 3,
+            "keyData": {
+                "bgH": "button_hl_bg",
+                "bgN": "controller_joystick_bg_right_uia",
+                "cmd": [
+                    4096
+                ],
+                "src": "",
+                "name": "A",
+                "desc": "A",
+                "viewType": 100,
+                "pressMode": 1
+            },
+            "keyLayout": {
+                "size": 1,
+                "right": 135,
+                "width": 60,
+                "bottom": 80,
+                "height": 60
+            }
+        },
+        {
+            "id": 4,
+            "keyData": {
+                "bgH": "button_hl_bg",
+                "bgN": "controller_joystick_bg_right_uia",
+                "cmd": [
+                    8192
+                ],
+                "src": "",
+                "name": "B",
+                "desc": "B",
+                "viewType": 100,
+                "pressMode": 1
+            },
+            "keyLayout": {
+                "size": 1,
+                "right": 90,
+                "width": 60,
+                "bottom": 130,
+                "height": 60
+            }
+        },
+        {
+            "id": 5,
+            "keyData": {
+                "bgH": "button_hl_bg",
+                "bgN": "controller_joystick_bg_right_uia",
+                "cmd": [
+                    16384
+                ],
+                "src": "",
+                "name": "X",
+                "desc": "X",
+                "viewType": 100,
+                "pressMode": 1
+            },
+            "keyLayout": {
+                "size": 1,
+                "right": 180,
+                "width": 60,
+                "bottom": 130,
+                "height": 60
+            }
+        },
+        {
+            "id": 6,
+            "keyData": {
+                "bgH": "button_hl_bg",
+                "bgN": "controller_joystick_bg_right_uia",
+                "cmd": [
+                    32768
+                ],
+                "src": "",
+                "name": "Y",
+                "desc": "Y",
+                "viewType": 100,
+                "pressMode": 1
+            },
+            "keyLayout": {
+                "size": 1,
+                "right": 135,
+                "width": 60,
+                "bottom": 180,
+                "height": 60
+            }
+        },
+        {
+            "id": 7,
+            "keyData": {
+                "bgH": "controller_r2_highlight_uia",
+                "bgN": "controller_r2_uia",
+                "cmd": [
+                    0
+                ],
+                "src": "",
+                "name": "RT",
+                "desc": "RT",
+                "viewType": 104,
+                "pressMode": 1
+            },
+            "keyLayout": {
+                "size": 1,
+                "right": 120,
+                "width": 64,
+                "bottom": 270,
+                "height": 60
+            }
+        },
+        {
+            "id": 8,
+            "keyData": {
+                "bgH": "controller_r1_highlight_uia",
+                "bgN": "controller_r1_uia",
+                "cmd": [
+                    512
+                ],
+                "src": "",
+                "name": "RB",
+                "desc": "RB",
+                "viewType": 100,
+                "pressMode": 1
+            },
+            "keyLayout": {
+                "size": 1,
+                "right": 178,
+                "width": 64,
+                "bottom": 260,
+                "height": 60
+            }
+        },
+        {
+            "id": 9,
+            "keyData": {
+                "bgH": "controller_joystick_bg_highlight_uia",
+                "bgN": "controller_joystick_bg_left_uia",
+                "cmd": [
+                    128
+                ],
+                "src": "controller_joystick_fg_uib",
+                "name": "",
+                "desc": "",
+                "viewType": 102,
+                "pressMode": 1
+            },
+            "keyLayout": {
+                "size": 1,
+                "right": 300,
+                "width": 110,
+                "bottom": 130,
+                "height": 110
+            }
+        },
+        {
+            "id": 10,
+            "keyData": {
+                "bgH": "controller_joystick_bg_highlight_uia",
+                "bgN": "controller_joystick_bg_left_uia",
+                "cmd": [
+                    64
+                ],
+                "src": "controller_joystick_fg_uib",
+                "name": "",
+                "desc": "",
+                "viewType": 101,
+                "pressMode": 1
+            },
+            "keyLayout": {
+                "left": 75,
+                "size": 1,
+                "width": 110,
+                "bottom": 155,
+                "height": 110
+            }
+        },
+        {
+            "id": 11,
+            "keyData": {
+                "bgH": "controller_up_highlight_uia",
+                "bgN": "controller_up_uia",
+                "cmd": [
+                    1
+                ],
+                "src": "",
+                "name": "",
+                "desc": "",
+                "viewType": 100,
+                "pressMode": 1
+            },
+            "keyLayout": {
+                "left": 88,
+                "size": 1,
+                "width": 80,
+                "bottom": 180,
+                "height": 35
+            }
+        },
+        {
+            "id": 12,
+            "keyData": {
+                "bgH": "controller_down_highlight_uia",
+                "bgN": "controller_down_uia",
+                "cmd": [
+                    2
+                ],
+                "src": "",
+                "name": "",
+                "desc": "",
+                "viewType": 100,
+                "pressMode": 1
+            },
+            "keyLayout": {
+                "left": 88,
+                "size": 1,
+                "width": 80,
+                "bottom": 55,
+                "height": 35
+            }
+        },
+        {
+            "id": 13,
+            "keyData": {
+                "bgH": "controller_left_highlight_uia",
+                "bgN": "controller_left_uia",
+                "cmd": [
+                    4
+                ],
+                "src": "",
+                "name": "",
+                "desc": "",
+                "viewType": 100,
+                "pressMode": 1
+            },
+            "keyLayout": {
+                "left": 50,
+                "size": 1,
+                "width": 35,
+                "bottom": 140,
+                "height": 80
+            }
+        },
+        {
+            "id": 14,
+            "keyData": {
+                "bgH": "controller_right_highlight_uia",
+                "bgN": "controller_right_uia",
+                "cmd": [
+                    8
+                ],
+                "src": "",
+                "name": "",
+                "desc": "",
+                "viewType": 100,
+                "pressMode": 1
+            },
+            "keyLayout": {
+                "left": 175,
+                "size": 1,
+                "width": 35,
+                "bottom": 140,
+                "height": 80
+            }
+        },
+        {
+            "id": 15,
+            "keyData": {
+                "bgH": "controller_l2_highlight_uia",
+                "bgN": "controller_l2_uia",
+                "cmd": [
+                    67
+                ],
+                "src": "",
+                "name": "LT",
+                "desc": "LT",
+                "viewType": 103,
+                "pressMode": 1
+            },
+            "keyLayout": {
+                "left": 50,
+                "size": 1,
+                "width": 64,
+                "bottom": 270,
+                "height": 60
+            }
+        },
+        {
+            "id": 16,
+            "keyData": {
+                "bgH": "controller_l1_highlight_uia",
+                "bgN": "controller_l1_uia",
+                "cmd": [
+                    256
+                ],
+                "src": "",
+                "name": "LB",
+                "desc": "LB",
+                "viewType": 100,
+                "pressMode": 1
+            },
+            "keyLayout": {
+                "left": 107,
+                "size": 1,
+                "width": 64,
+                "bottom": 260,
+                "height": 60
+            }
+        },
+        {
+            "id": 17,
+            "keyData": {
+                "bgH": "button_hl_bg",
+                "bgN": "controller_joystick_bg_right_uia",
+                "cmd": [
+                    64
+                ],
+                "src": "",
+                "name": "L",
+                "desc": "L",
+                "viewType": 100,
+                "pressMode": 1
+            },
+            "keyLayout": {
+                "left": 30,
+                "size": 1,
+                "width": 40,
+                "bottom": 180,
+                "height": 40
+            }
+        },
+        {
+            "id": 18,
+            "keyData": {
+                "bgH": "button_hl_bg",
+                "bgN": "controller_joystick_bg_right_uia",
+                "cmd": [
+                    128
+                ],
+                "src": "",
+                "name": "R",
+                "desc": "R",
+                "viewType": 100,
+                "pressMode": 1
+            },
+            "keyLayout": {
+                "size": 1,
+                "right": 60,
+                "width": 40,
+                "bottom": 180,
+                "height": 40
+            }
+        }
+    ]
+}

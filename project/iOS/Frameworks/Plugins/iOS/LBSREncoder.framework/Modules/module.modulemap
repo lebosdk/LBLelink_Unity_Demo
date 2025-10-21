@@ -1,0 +1,6 @@
+framework module LBSREncoder {
+  umbrella header "LBSREncoder.h"
+  export *
+
+  module * { export * }
+}

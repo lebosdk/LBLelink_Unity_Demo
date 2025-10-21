@@ -1,0 +1,451 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hpplay.sdk.source.test"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->/Users/lbkj/Downloads/Source/project/Android/launcher/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="33" />
+10-->/Users/lbkj/Downloads/Source/project/Android/launcher/src/main/AndroidManifest.xml
+11
+12    <supports-screens
+12-->/Users/lbkj/Downloads/Source/project/Android/launcher/src/main/AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->/Users/lbkj/Downloads/Source/project/Android/launcher/src/main/AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->/Users/lbkj/Downloads/Source/project/Android/launcher/src/main/AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->/Users/lbkj/Downloads/Source/project/Android/launcher/src/main/AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->/Users/lbkj/Downloads/Source/project/Android/launcher/src/main/AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->/Users/lbkj/Downloads/Source/project/Android/launcher/src/main/AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-81
+19-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-78
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+20-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+20-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-67
+21-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-64
+22
+23    <uses-feature android:glEsVersion="0x00030000" />
+23-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-54
+23-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:19-51
+24    <uses-feature
+24-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-17:36
+25        android:name="android.hardware.vulkan.version"
+25-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-55
+26        android:required="false" />
+26-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-33
+27    <uses-feature
+27-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:5-20:36
+28        android:name="android.hardware.touchscreen"
+28-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-52
+29        android:required="false" />
+29-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-33
+30    <uses-feature
+30-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:5-23:36
+31        android:name="android.hardware.touchscreen.multitouch"
+31-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-63
+32        android:required="false" />
+32-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-33
+33    <uses-feature
+33-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:5-26:36
+34        android:name="android.hardware.touchscreen.multitouch.distinct"
+34-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-72
+35        android:required="false" />
+35-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-33
+36
+37    <uses-permission android:name="android.permission.BLUETOOTH" />
+37-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:8:5-68
+37-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:8:22-65
+38    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+38-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:9:5-74
+38-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:9:22-71
+39    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+39-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:12:5-73
+39-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:12:22-70
+40
+41    <uses-feature
+41-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:17:5-19:36
+42        android:name="android.hardware.wifi"
+42-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:18:9-45
+43        android:required="false" />
+43-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:19:9-33
+44    <uses-feature
+44-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:20:5-22:36
+45        android:name="android.hardware.gamepad"
+45-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:21:9-48
+46        android:required="false" />
+46-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:22:9-33
+47    <uses-feature
+47-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:23:5-25:35
+48        android:name="android.hardware.usb.host"
+48-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:24:9-49
+49        android:required="true" />
+49-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:25:9-32
+50    <uses-feature
+50-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:26:5-28:36
+51        android:name="android.software.leanback"
+51-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:27:9-49
+52        android:required="false" />
+52-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:28:9-33
+53    <uses-feature
+53-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:29:5-31:36
+54        android:name="android.hardware.type.pc"
+54-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:30:9-48
+55        android:required="false" />
+55-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:31:9-33
+56
+57    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+57-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:34:5-79
+57-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:34:22-76
+58    <uses-permission android:name="android.permission.VIBRATE" />
+58-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:35:5-66
+58-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:35:22-63
+59    <uses-permission android:name="android.permission.WAKE_LOCK" />
+59-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:36:5-68
+59-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:36:22-65
+60    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+60-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:37:5-86
+60-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:37:22-83
+61    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+61-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:38:5-76
+61-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:38:22-73
+62    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+62-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:39:5-79
+62-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:39:22-76
+63    <uses-permission android:name="android.hardware.usb.host" />
+63-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:40:5-65
+63-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:40:22-62
+64    <uses-permission android:name="ANDROID.PERMISSION.HARDWARE_TEST" />
+64-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:41:5-72
+64-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:41:22-69
+65
+66    <uses-feature
+66-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:43:5-45:35
+67        android:name="android.hardware.usb.accessory"
+67-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:44:9-54
+68        android:required="true" />
+68-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:45:9-32
+69
+70    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+70-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:47:5-71
+70-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:47:22-68
+71    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+71-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:48:5-80
+71-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:48:22-77
+72    <uses-permission android:name="android.permission.CAMERA" />
+72-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:49:5-65
+72-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:49:22-62
+73    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+73-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:50:5-80
+73-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:50:22-77
+74    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+74-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:51:5-53:30
+74-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:52:9-65
+75    <uses-permission android:name="android.permission.USB_PERMISSION" />
+75-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:54:5-73
+75-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:54:22-70
+76    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+76-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:55:5-82
+76-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:55:22-79
+77    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- Android11：V8.6.1及之后的版本不需要；其他：V4.4.0及之后的版本不需要 -->
+77-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:59:5-76
+77-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:59:22-73
+78    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 控制呼吸灯，振动器等，用于新消息提醒 -->
+78-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:60:5-75
+78-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:60:22-72
+79    <uses-permission android:name="android.permission.FLASHLIGHT" /> <!-- 8.0+系统需要 -->
+79-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:61:5-69
+79-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:61:22-66
+80    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+80-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:62:5-77
+80-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:62:22-74
+81    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+81-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:63:5-78
+81-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:63:22-75
+82
+83    <application
+83-->/Users/lbkj/Downloads/Source/project/Android/launcher/src/main/AndroidManifest.xml:3:3-83
+84        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+84-->[androidx.core:core:1.0.0] /Users/lbkj/.gradle/caches/transforms-3/7b11811bee1755794062dd9be1ec36fd/transformed/core-1.0.0/AndroidManifest.xml:22:18-86
+85        android:debuggable="true"
+86        android:extractNativeLibs="true"
+86-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:18-50
+87        android:icon="@mipmap/app_icon"
+87-->/Users/lbkj/Downloads/Source/project/Android/launcher/src/main/AndroidManifest.xml:3:49-80
+88        android:label="@string/app_name"
+88-->/Users/lbkj/Downloads/Source/project/Android/launcher/src/main/AndroidManifest.xml:3:16-48
+89        android:testOnly="true" >
+90        <service
+90-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-31:39
+91            android:name="com.light.core.service.ShellPerfService"
+91-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-67
+92            android:exported="true"
+92-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-36
+93            android:label="Shell Perf" >
+93-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:75:13-39
+94            <intent-filter>
+94-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:76:13-78:29
+95                <action android:name="android.lightplay.service.SHELL_PERF" />
+95-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:77:17-79
+95-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:77:25-76
+96            </intent-filter>
+97        </service>
+98
+99        <meta-data
+99-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:9-35:33
+100            android:name="unity.splash-mode"
+100-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-45
+101            android:value="0" />
+101-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-30
+102        <meta-data
+102-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:9-38:36
+103            android:name="unity.splash-enable"
+103-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-47
+104            android:value="True" />
+104-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-33
+105        <meta-data
+105-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:9-41:36
+106            android:name="unity.launch-fullscreen"
+106-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-51
+107            android:value="True" />
+107-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-33
+108        <meta-data
+108-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:42:9-44:36
+109            android:name="unity.render-outside-safearea"
+109-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-57
+110            android:value="True" />
+110-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-33
+111        <meta-data
+111-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:45:9-47:50
+112            android:name="notch.config"
+112-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-40
+113            android:value="portrait|landscape" />
+113-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-47
+114        <meta-data
+114-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:48:9-50:36
+115            android:name="unity.auto-report-fully-drawn"
+115-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:49:13-57
+116            android:value="true" />
+116-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:50:13-33
+117
+118        <activity
+118-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:52:9-73:20
+119            android:name="com.unity3d.player.UnityPlayerActivity"
+119-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:53:13-66
+120            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+120-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:54:13-194
+121            android:exported="true"
+121-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:55:13-36
+122            android:hardwareAccelerated="false"
+122-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:56:13-48
+123            android:launchMode="singleTask"
+123-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:57:13-44
+124            android:resizeableActivity="false"
+124-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:58:13-47
+125            android:screenOrientation="fullUser"
+125-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:59:13-49
+126            android:theme="@style/UnityThemeSelector" >
+126-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:60:13-54
+127            <intent-filter>
+127-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:61:13-65:29
+128                <category android:name="android.intent.category.LAUNCHER" />
+128-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:62:17-77
+128-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:62:27-74
+129
+130                <action android:name="android.intent.action.MAIN" />
+130-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:64:17-69
+130-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:64:25-66
+131            </intent-filter>
+132
+133            <meta-data
+133-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:67:13-69:40
+134                android:name="unityplayer.UnityActivity"
+134-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:68:17-57
+135                android:value="true" />
+135-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:69:17-37
+136            <meta-data
+136-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:70:13-72:40
+137                android:name="notch_support"
+137-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:71:17-45
+138                android:value="true" />
+138-->[:unityLibrary] /Users/lbkj/Downloads/Source/project/Android/unityLibrary/build/intermediates/merged_manifest/debug/AndroidManifest.xml:72:17-37
+139        </activity>
+140
+141        <service
+141-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:66:9-69:63
+142            android:name="com.hpplay.sdk.meeting.ne.service.CaptureScreenService"
+142-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:67:13-82
+143            android:enabled="true"
+143-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:68:13-35
+144            android:foregroundServiceType="mediaProjection" />
+144-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:69:13-60
+145        <service
+145-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:70:9-72:50
+146            android:name="com.light.play.binding.input.driver.UsbDriverService"
+146-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:71:13-80
+147            android:label="Usb Driver Service" /> <!-- 云信后台服务，请使用独立进程。 -->
+147-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:72:13-47
+148        <service
+148-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:80:9-82:39
+149            android:name="com.netease.nimlib.service.NimService"
+149-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:81:13-65
+150            android:process=":core" /> <!-- 云信后台辅助服务 -->
+150-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:82:13-36
+151        <service
+151-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:83:9-85:39
+152            android:name="com.netease.nimlib.service.NimService$Aux"
+152-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:84:13-69
+153            android:process=":core" /> <!-- 云信后台辅助服务 -->
+153-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:85:13-36
+154        <service
+154-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:86:9-90:39
+155            android:name="com.netease.nimlib.job.NIMJobService"
+155-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:87:13-64
+156            android:exported="false"
+156-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:88:13-37
+157            android:permission="android.permission.BIND_JOB_SERVICE"
+157-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:89:13-69
+158            android:process=":core" /> <!-- 云信进程间通信 Receiver -->
+158-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:90:13-36
+159        <receiver android:name="com.netease.nimlib.service.ResponseReceiver" /> <!-- 云信进程间通信service -->
+159-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:97:9-80
+159-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:97:19-77
+160        <service android:name="com.netease.nimlib.service.ResponseService" /> <!-- 云信进程间通信provider -->
+160-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:98:9-78
+160-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:98:18-75
+161        <provider
+161-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:99:9-103:39
+162            android:name="com.netease.nimlib.ipc.NIMContentProvider"
+162-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:100:13-69
+163            android:authorities="com.hpplay.sdk.source.test.ipc.provider"
+163-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:101:13-64
+164            android:exported="false"
+164-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:102:13-37
+165            android:process=":core" /> <!-- 云信内部使用的进程间通信provider -->
+165-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:103:13-36
+166        <!-- SDK启动时会强制检测该组件的声明是否配置正确，如果检测到该声明不正确，SDK会主动抛出异常引发崩溃 -->
+167        <provider
+167-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:105:9-108:40
+168            android:name="com.netease.nimlib.ipc.cp.provider.PreferenceContentProvider"
+168-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:106:13-88
+169            android:authorities="com.hpplay.sdk.source.test.ipc.provider.preference"
+169-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:107:13-75
+170            android:exported="false" />
+170-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:108:13-37
+171
+172        <service
+172-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:110:9-116:19
+173            android:name="com.hpplay.sdk.source.process.LelinkSdkService"
+173-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:111:13-74
+174            android:exported="false" >
+174-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:112:13-37
+175            <intent-filter>
+175-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:113:13-115:29
+176                <action android:name="com.hpplay.sdk.source.LelinkSdkService.ACTION" />
+176-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:114:17-88
+176-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:114:25-85
+177            </intent-filter>
+178        </service>
+179
+180        <activity
+180-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:118:9-122:86
+181            android:name="com.hpplay.sdk.source.permission.PermissionBridgeActivity"
+181-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:119:13-85
+182            android:excludeFromRecents="true"
+182-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:120:13-46
+183            android:exported="false"
+183-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:121:13-37
+184            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" /> <!-- 云镜像，仅乐播APP使用 -->
+184-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:122:13-83
+185        <activity
+185-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:123:9-127:86
+186            android:name="com.hpplay.sdk.source.mirror.yim.render.MirrorPlayerActivity"
+186-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:124:13-88
+187            android:excludeFromRecents="true"
+187-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:125:13-46
+188            android:exported="false"
+188-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:126:13-37
+189            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+189-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:127:13-83
+190        <activity
+190-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:128:9-140:20
+191            android:name="com.hpplay.sdk.source.usb.UsbNotifyActivity"
+191-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:129:13-71
+192            android:excludeFromRecents="true"
+192-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:130:13-46
+193            android:exported="false"
+193-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:131:13-37
+194            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+194-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:132:13-83
+195            <intent-filter>
+195-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:133:13-135:29
+196                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+196-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:134:17-93
+196-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:134:25-90
+197            </intent-filter>
+198
+199            <meta-data
+199-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:137:13-139:60
+200                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+200-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:138:17-82
+201                android:resource="@xml/accessory_filter" />
+201-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:139:17-57
+202        </activity>
+203
+204        <service
+204-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:142:9-145:83
+205            android:name="com.hpplay.component.screencapture.ScreenCaptureService"
+205-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:143:13-83
+206            android:exported="false"
+206-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:144:13-37
+207            android:foregroundServiceType="mediaProjection|microphone|dataSync" />
+207-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:145:13-80
+208
+209        <receiver
+209-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:147:9-153:20
+210            android:name="com.hpplay.sdk.source.process.LelinkReceiver"
+210-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:148:13-72
+211            android:exported="false" >
+211-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:149:13-37
+212            <intent-filter>
+212-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:150:13-152:29
+213                <action android:name="com.hpplay.source.service.close" />
+213-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:151:17-74
+213-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:151:25-71
+214            </intent-filter>
+215        </receiver>
+216
+217        <service
+217-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:155:9-166:19
+218            android:name="com.hpplay.sdk.source.api.LelinkAccessibilityService"
+218-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:156:13-80
+219            android:exported="false"
+219-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:157:13-37
+220            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+220-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:158:13-79
+221            <intent-filter>
+221-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:159:13-161:29
+222                <action android:name="android.accessibilityservice.AccessibilityService" />
+222-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:160:17-92
+222-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:160:25-89
+223            </intent-filter>
+224
+225            <meta-data
+225-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:163:13-165:56
+226                android:name="android.accessibilityservice"
+226-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:164:17-60
+227                android:resource="@xml/accessconfig" />
+227-->[:source:] /Users/lbkj/.gradle/caches/transforms-3/94cb25dd0ffd15d5ec2d7789b1bd3576/transformed/jetified-source/AndroidManifest.xml:165:17-53
+228        </service>
+229    </application>
+230
+231</manifest>
