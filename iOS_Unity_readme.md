@@ -17,7 +17,7 @@
 
 ## 架构
 
-![架构图](http://doc.hpplay.com.cn/server/index.php?s=/api/attachment/visitFile/sign/2e2117f0ca97cf599a7fc5b26b9d4d06)
+![架构图](https://doc.hpplay.com.cn/Public/Uploads/2025-10-21/68f6f125d107d.png)
 
 - ButtonClicked
   在 Unity 中一个脚本文件，主要是用来关联 Unity 层的按钮事件
@@ -517,41 +517,41 @@ public class iOSCallback : MonoBehaviour
 以上就是对整个 Unity 基于 LelinkSDK 封装的一个架构及代码封装介绍，下面对 iOS 工程重点介绍
 
 ## iOS 工程
-iOS 实现镜像功能，需要一个主程序和扩展程序来实现
+iOS 实现镜像功能，需要一个主程序和扩展程序来实现。** Demo 中 project 文件下面的 iOS 文件夹工程是运行不起来的，下载 Demo 下来后，需要自己再重新生成一个新的 iOS 工程，这里只作为一个参考，按照下面的文档来操作即可。 **
 
 ### 主程序 info.plist 文件修改
 
-![主程序 info.plist 文件修改](http://doc.hpplay.com.cn/server/index.php?s=/api/attachment/visitFile/sign/c79558470372f1605cdadaac88461db1)
+![主程序 info.plist 文件修改](https://doc.hpplay.com.cn/Public/Uploads/2025-10-21/68f6f8f2640a7.png)
 
 在主程序中的 info.plist 文件添加以上内容
 
 ### 创建扩展程序
 iOS 需要一个扩展程序来实现屏幕音视频数据采集，所以需要在工程中创建一个扩展程序
-![](http://doc.hpplay.com.cn/server/index.php?s=/api/attachment/visitFile/sign/e26e7b7cf5bc0d313b38c4ffbac72715)
+![](https://doc.hpplay.com.cn/Public/Uploads/2025-10-21/68f6f9473cfdf.png)
 选择好后，给扩展程序命名后创建
-![](http://doc.hpplay.com.cn/server/index.php?s=/api/attachment/visitFile/sign/6241c3c4d00907935eed344ffefc7000)
+![](https://doc.hpplay.com.cn/Public/Uploads/2025-10-21/68f6f957301c7.png)
 选择 `Activate`，创建成功后
-![](http://doc.hpplay.com.cn/server/index.php?s=/api/attachment/visitFile/sign/9378e4e93b3dfddefcb68eefa0ac829d)
+![](https://doc.hpplay.com.cn/Public/Uploads/2025-10-21/68f6f974a947e.png)
 这里会有刚刚输入名称的 `target`，选择这个 `target`，添加 `App Groups`
-![](http://doc.hpplay.com.cn/server/index.php?s=/api/attachment/visitFile/sign/a421e346217ed92608769f95b38323d9)
+![](https://doc.hpplay.com.cn/Public/Uploads/2025-10-21/68f6f9aec8dfc.png)
 然后根据证书，选择自己的 App Groups，**同时主程序也需要添加 App Groups，流程也是这样操作**
-![](http://doc.hpplay.com.cn/server/index.php?s=/api/attachment/visitFile/sign/8a9d35f6ea41205086ff3fc98cad39b2)
+![](https://doc.hpplay.com.cn/Public/Uploads/2025-10-21/68f6f9e67cacf.png)
 
 创建好扩展程序后，将 `Framework` 引入到扩展程序中，需要引入 `LBLelinkKit`、`LBReplayKit`、`LBReplayKitExtension`、`LBSREncoder`
-![](http://doc.hpplay.com.cn/server/index.php?s=/api/attachment/visitFile/sign/871b8472e09e1438605efdd87d78a765)
-![](http://doc.hpplay.com.cn/server/index.php?s=/api/attachment/visitFile/sign/8183b226623c9c64d17da8631c36c558)
-![](http://doc.hpplay.com.cn/server/index.php?s=/api/attachment/visitFile/sign/e34b0cd0dc72cae9f8bb7f0500d6fb00)
+![](https://doc.hpplay.com.cn/Public/Uploads/2025-10-21/68f701ef44e1b.png)
+![](https://doc.hpplay.com.cn/Public/Uploads/2025-10-21/68f701f51192f.png)
+![](https://doc.hpplay.com.cn/Public/Uploads/2025-10-21/68f701fa5fb40.png)
 其他的 Framework 也需要同样的操作
 
 ** 默认 UnityFramework 会全部包含 LBLelinkKit、LBReplayAppKit、LBReplayKit、LBReplayKitExtension、LBSREncoder，可以将 LBReplayKit、LBReplayKitExtension、LBSREncoder 这三个从 UnityFramework 移除，这三个只需要放在扩展程序就行了，这样能减少安装包的体积 **
-![](http://doc.hpplay.com.cn/server/index.php?s=/api/attachment/visitFile/sign/bd6f969b728ac77336e4c6d84eb5ced4)
+![](https://doc.hpplay.com.cn/Public/Uploads/2025-10-21/68f7052e9f97f.png)
 #### 添加依赖库
-![](http://doc.hpplay.com.cn/server/index.php?s=/api/attachment/visitFile/sign/82aa1cfcd7ecc8f070bceeac8e75b16c)
+![](https://doc.hpplay.com.cn/Public/Uploads/2025-10-21/68f720f7965e8.png)
 
 ### LBAPIBridge
 LBAPIBridge 文件是 iOS 平台文件，.h 、.m 两个文件，在 iOS 平台实现投屏功能的具体接入实现文件，首先创建出 LBAPIBridge.h 、LBAPIBridge.m 文件，并且放入到 Assets 目录下，然后通过 Unity 导出 iOS 工程，就会同时将 LBAPIBridge 文件导出到 iOS 工程中
 
-![](http://doc.hpplay.com.cn/server/index.php?s=/api/attachment/visitFile/sign/4b1a8386f5286f59601531b2742fcb80)
+![](https://doc.hpplay.com.cn/Public/Uploads/2025-10-21/68f7213f35b42.png)
 
 然后根据 [SDK集成(iOS) | 乐播云文档中心](https://cloud.lebo.cn/document/d19d7c346d518247.html) 进行集成，在 LBAPIBridge 文件中实现授权、设备搜索、停止搜索设备、连接设备、断开连接、开始镜像、停止镜像 功能
 
@@ -969,7 +969,7 @@ extern "C" {
 上面就是对主程序的实现，下面介绍创建扩展程序和实现镜像功能，Unity 导出的工程是不会自动创建扩展程序，所以需要我们自己手动去创建，并且每次从 Unity 同步到 iOS 工程时，要选择 append，而不是 replace，否则又需要手动去创建扩展程序
 
 ### 拓展程序实现
-![](http://doc.hpplay.com.cn/server/index.php?s=/api/attachment/visitFile/sign/89cb6d852a98fbfeed7d4f10dfe7a433)
+![](https://doc.hpplay.com.cn/Public/Uploads/2025-10-21/68f7223991d3c.png)
 #### SampleHandler.m
 ```C
 //
