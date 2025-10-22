@@ -517,7 +517,7 @@ public class iOSCallback : MonoBehaviour
 以上就是对整个 Unity 基于 LelinkSDK 封装的一个架构及代码封装介绍，下面对 iOS 工程重点介绍
 
 ## iOS 工程
-iOS 实现镜像功能，需要一个主程序和扩展程序来实现。** Demo 中 project 文件下面的 iOS 文件夹工程是运行不起来的，下载 Demo 下来后，需要自己再重新生成一个新的 iOS 工程，这里只作为一个参考，按照下面的文档来操作即可。 **
+iOS 实现镜像功能，需要一个主程序和扩展程序来实现。**Demo 中 project 文件下面的 iOS 文件夹工程是运行不起来的，下载 Demo 下来后，需要自己再重新生成一个新的 iOS 工程，这里只作为一个参考，按照下面的文档来操作即可。**
 
 ### 主程序 info.plist 文件修改
 
@@ -543,7 +543,7 @@ iOS 需要一个扩展程序来实现屏幕音视频数据采集，所以需要�
 ![](https://doc.hpplay.com.cn/Public/Uploads/2025-10-21/68f701fa5fb40.png)
 其他的 Framework 也需要同样的操作
 
-** 默认 UnityFramework 会全部包含 LBLelinkKit、LBReplayAppKit、LBReplayKit、LBReplayKitExtension、LBSREncoder，可以将 LBReplayKit、LBReplayKitExtension、LBSREncoder 这三个从 UnityFramework 移除，这三个只需要放在扩展程序就行了，这样能减少安装包的体积 **
+**默认 UnityFramework 会全部包含 LBLelinkKit、LBReplayAppKit、LBReplayKit、LBReplayKitExtension、LBSREncoder，可以将 LBReplayKit、LBReplayKitExtension、LBSREncoder 这三个从 UnityFramework 移除，这三个只需要放在扩展程序就行了，这样能减少安装包的体积**
 ![](https://doc.hpplay.com.cn/Public/Uploads/2025-10-21/68f7052e9f97f.png)
 #### 添加依赖库
 ![](https://doc.hpplay.com.cn/Public/Uploads/2025-10-21/68f720f7965e8.png)
