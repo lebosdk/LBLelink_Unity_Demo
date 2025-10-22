@@ -4,6 +4,9 @@
 
 ## 环境
 * Unity 编辑器版本 `2022.3.29f1`
+* Xcode 
+
+当前 Demo 使用的是 Unity 引擎，如果使用团结引擎，流程也是一样的，只是在编译生成 iOS 工程时，生成的 `UnityFramework` 名称变成了 `TuanjieFramework`，其他的操作都是一样的
 
 ## iOS 原生投屏 SDK
 
