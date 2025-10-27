@@ -3,6 +3,10 @@ Unity 接入 LBLelink Demo，支持 iOS 和 Android 平台。Unity 引擎和团�
 
 ![Unity 工程图](https://doc.hpplay.com.cn/Public/Uploads/2025-10-22/68f871bc99c43.png)
 
+## 环境
+
+* Unity 编辑器版本 2022.3.29f1
+
 ## 架构
 ![架构图](https://doc.hpplay.com.cn/Public/Uploads/2025-10-22/68f873b918705.png)
 
