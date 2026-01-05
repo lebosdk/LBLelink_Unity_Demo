@@ -93,17 +93,19 @@ public class AndroidBridge : INativeBridge
         lelinkSoureSDK.Call("stopBrowse");
     }
 
-    public void connect(){
-        LeLog.Log($"{TAG} connect");
+    public void connect(string deviceName){
+        LeLog.Log($"{TAG} connect {deviceName}");
+        lelinkSoureSDK.Call("connect", deviceName);
     }
 
     public void disconnect(){
         LeLog.Log($"{TAG} disconnect");
+        lelinkSoureSDK.Call("disconnect");
     }
 
-    public void startMirror(string deviceName){
-        LeLog.Log($"{TAG} startMirror {deviceName}");
-        lelinkSoureSDK.Call("startMirror", deviceName);
+    public void startMirror(){
+        LeLog.Log($"{TAG} startMirror");
+        lelinkSoureSDK.Call("startMirror");
     }
 
     public void stopMirror(){

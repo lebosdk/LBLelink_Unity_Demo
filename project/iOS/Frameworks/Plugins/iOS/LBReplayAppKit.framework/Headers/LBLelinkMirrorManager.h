@@ -98,6 +98,7 @@ NS_ASSUME_NONNULL_BEGIN
 */
 - (void)stopExtensionApp;
 
+- (void)setExtensionAPI:(NSDictionary *)dict;
 @end
 
 NS_ASSUME_NONNULL_END

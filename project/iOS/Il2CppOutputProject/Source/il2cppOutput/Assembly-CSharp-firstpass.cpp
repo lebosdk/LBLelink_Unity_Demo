@@ -126,19 +126,23 @@ IL2CPP_EXTERN_C String_t* _stringLiteral02C9C81C6799B36EF416A37206D1D5A254BDCE96
 IL2CPP_EXTERN_C String_t* _stringLiteral0904325D155CC39EC3C59A1A51A94909D5F6FFFD;
 IL2CPP_EXTERN_C String_t* _stringLiteral09E74BAEB95C8FB0E307FC221C76913A37759F5B;
 IL2CPP_EXTERN_C String_t* _stringLiteral0CB64A11A50E060A541CC1CE9B71464BD2DDEFC4;
+IL2CPP_EXTERN_C String_t* _stringLiteral0FD7B3C1033C1EF1C45607B35492B62E1CFC7C11;
 IL2CPP_EXTERN_C String_t* _stringLiteral19A66527FE8082E019CE1CA449CC017124422660;
 IL2CPP_EXTERN_C String_t* _stringLiteral1C01D139813B44C70ABE13ED0E9CCAC0FAC9ADC9;
 IL2CPP_EXTERN_C String_t* _stringLiteral1C7A9E8795DAC93A625C23D6E9F2BC7332ABF459;
 IL2CPP_EXTERN_C String_t* _stringLiteral2063737B07B6658BC2E1EC3128D4E09E57CA123E;
+IL2CPP_EXTERN_C String_t* _stringLiteral20DBF11F2C0F751DFB3DC519A06FA68400709A39;
 IL2CPP_EXTERN_C String_t* _stringLiteral22650657D4B6910D814DC43AB900F11598D688AD;
 IL2CPP_EXTERN_C String_t* _stringLiteral2386E77CF610F786B06A91AF2C1B3FD2282D2745;
 IL2CPP_EXTERN_C String_t* _stringLiteral26C0CC5E529EAD39DA412064E5DCB12BA057D784;
 IL2CPP_EXTERN_C String_t* _stringLiteral2D2B795D258CA9003BD4B177C6568EAB64E13D87;
 IL2CPP_EXTERN_C String_t* _stringLiteral2DBCA44312DAD37341DA5126CFFDBCAD1969751E;
 IL2CPP_EXTERN_C String_t* _stringLiteral2DE4C2929F177912B8B57014F8EA222390389161;
+IL2CPP_EXTERN_C String_t* _stringLiteral2F86EDCB60CFBA0D68FE3BE88CD6E293852B7E05;
 IL2CPP_EXTERN_C String_t* _stringLiteral387B9615743ABADCE73EC4EF8FD89B85D0FB341A;
 IL2CPP_EXTERN_C String_t* _stringLiteral3A91F953AF7F7AA38E9E38C956F2CC94A1F9375E;
 IL2CPP_EXTERN_C String_t* _stringLiteral3AB4C399EFA430C6B9CC697DD84EF1336F5755DA;
+IL2CPP_EXTERN_C String_t* _stringLiteral409C470AAAA75E6B7289D66359C5605FFDF1DFA1;
 IL2CPP_EXTERN_C String_t* _stringLiteral4D058CCA9C5C876BAA39AEDDCD39E6962D7C95FA;
 IL2CPP_EXTERN_C String_t* _stringLiteral4D3105E18DBA4DCE06EBA124E58803717C1F05B7;
 IL2CPP_EXTERN_C String_t* _stringLiteral4ED1DD2B28418AAA4D4F7976E554AA886FF95ED6;
@@ -163,12 +167,10 @@ IL2CPP_EXTERN_C String_t* _stringLiteral7B2418825A67C10A0052B8B5DD327DECD4EA20B8
 IL2CPP_EXTERN_C String_t* _stringLiteral7B94F7C3D0166AE1EA464CA0E765E32D7E188E5B;
 IL2CPP_EXTERN_C String_t* _stringLiteral7D61F504FC4ED45E20479EE89166365EC389DC33;
 IL2CPP_EXTERN_C String_t* _stringLiteral80398EBD396D39D0F81696D2F9487B8DA42D308A;
-IL2CPP_EXTERN_C String_t* _stringLiteral812FDC7F526E177FCB20C9DF732EA761398B28BC;
 IL2CPP_EXTERN_C String_t* _stringLiteral8DFDA62E88A9E6B565B097F532D460607548188E;
 IL2CPP_EXTERN_C String_t* _stringLiteral8E0935B6618D2DB280DF2E06EBC61738ECFF497E;
 IL2CPP_EXTERN_C String_t* _stringLiteral8F6EA83943ED6FA22E8F7A6B9097A1EB85388CC8;
 IL2CPP_EXTERN_C String_t* _stringLiteral919C7AE82F3D441582A8CD43224B47568049E363;
-IL2CPP_EXTERN_C String_t* _stringLiteral987B84E07C730591A1AF179C42E2989C3802E494;
 IL2CPP_EXTERN_C String_t* _stringLiteral9D51F06F20D8C3C415C7CD3F7D7338E455077F10;
 IL2CPP_EXTERN_C String_t* _stringLiteral9F67518CE893D3379E1D0F3AA66309BA9BABA9DB;
 IL2CPP_EXTERN_C String_t* _stringLiteralA1F9E1CF535ED439A3D32F6E7319B3C7004BAF1D;
@@ -182,6 +184,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralB86B3D766225138202A066C820B8FF7C2A4F4F78
 IL2CPP_EXTERN_C String_t* _stringLiteralBE5BEBD9D6754EEAA3464A389284D8D0CCB44AD4;
 IL2CPP_EXTERN_C String_t* _stringLiteralBEF4CF38B13EC796FE65092936DAE67D8ECEFF42;
 IL2CPP_EXTERN_C String_t* _stringLiteralBF80D3EFDE275EC290374C67091396861EDDC361;
+IL2CPP_EXTERN_C String_t* _stringLiteralC21AA4F5FE69346E31AFC76EDFE0CD96E3B75776;
 IL2CPP_EXTERN_C String_t* _stringLiteralC26A698B4231F574D2B130B4FCD4E3BEA98806EF;
 IL2CPP_EXTERN_C String_t* _stringLiteralCE1145C1938753C52ED4D841313572444E54AA30;
 IL2CPP_EXTERN_C String_t* _stringLiteralCFF8B55F68ED599441AEB19E5F57BF94030E95F7;
@@ -189,7 +192,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralD9787BC8806570A4E32BA265F9A5E95BCB1A1433
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C String_t* _stringLiteralE171A931480FE6455FFEDD938BCC79D34939EB2C;
 IL2CPP_EXTERN_C String_t* _stringLiteralE232AAB75E7BB7A86320DECB5C9B93EA9676CA41;
-IL2CPP_EXTERN_C String_t* _stringLiteralE29FC36DD635E101972BC2D2C1DE1EB5C9612BE6;
 IL2CPP_EXTERN_C String_t* _stringLiteralE2FCDBA49D2DFC2C0CBB50DF761F609DB2AF5301;
 IL2CPP_EXTERN_C String_t* _stringLiteralEF6BEDD0DA5A78F809F2853C168B13CC55ABC647;
 IL2CPP_EXTERN_C String_t* _stringLiteralF0C17AEAAA4F124F18AE614B4B5FE68409C91839;
@@ -709,9 +711,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeLog_LogWarning_m54D8F5AD38D1D1BBC3E104
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge__init_m248E2A0658F0749AE0AA10B5E595FD6E1FE87019 (String_t* ___0_APPID, String_t* ___1_APP_SECRET, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge__startBrowse_m578A25D93A4F69DBF43282CA3ECB7544AC518FD3 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge__stopBrowse_m9B1A0DD742F04A33425482D7EB45B28A0E5DAB75 (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge__connect_m31C31CFAA215B38794551D3DA1E73B7C6262B635 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge__connect_mAE122C478EC31FE294DAA8841DE2DCB584CFD63A (String_t* ___0_deviceName, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge__disconnect_m1AC5C7AB8E3FF5E7805221A9424549DE7928510E (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge__startMirror_m8CA8C60D002FB56A345DBF7C8EDFE884CFEC4996 (String_t* ___0_deviceName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge__startMirror_m0FE229692E1CDBD2BA20343D701F24E96104ABE9 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge__stopMirror_mC7699FF0E958C82FA65D5DD80860E2D6522877F9 (const RuntimeMethod* method) ;
 inline CallbackData_t53CBE5AD0D2DA4159CFEF33EC29C58432F5B1B4A* JsonUtility_FromJson_TisCallbackData_t53CBE5AD0D2DA4159CFEF33EC29C58432F5B1B4A_m5823A899EEB79DF7716085A665AFAD84CF74D2F9 (String_t* ___0_json, const RuntimeMethod* method)
 {
@@ -729,9 +731,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeBridge_setOnBrowserListener_mA2B58
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* NativeBridge_getOnBrowserListener_m63F0EE6BC55186E9857B3393A88D203F98A1C345 (NativeBridge_tC5D70EF1D9880B44D9A92020B405590F94A48D67* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeBridge_startBrowse_mBC326362F477A6BC553085A7EA7E3439E1AE4B1B (NativeBridge_tC5D70EF1D9880B44D9A92020B405590F94A48D67* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeBridge_stopBrowse_m26B8BD8FA34F85AB61F77F79D943379715B7396E (NativeBridge_tC5D70EF1D9880B44D9A92020B405590F94A48D67* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeBridge_connect_m36D4AD001D0FAB0EA27425EA33AABBA2773BC2E4 (NativeBridge_tC5D70EF1D9880B44D9A92020B405590F94A48D67* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeBridge_connect_m9853A2598EFDEE63F698AE7FB248197F96D8D67B (NativeBridge_tC5D70EF1D9880B44D9A92020B405590F94A48D67* __this, String_t* ___0_deviceName, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeBridge_disconnect_mF79A25454C855EB074C264CB32A5F122314BEC98 (NativeBridge_tC5D70EF1D9880B44D9A92020B405590F94A48D67* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeBridge_startMirror_m881B761C4D71BE5066CE68BD85D84B334D33F501 (NativeBridge_tC5D70EF1D9880B44D9A92020B405590F94A48D67* __this, String_t* ___0_deviceName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeBridge_startMirror_m6E49504728E7D91B0660D82975DDCB501D8BD080 (NativeBridge_tC5D70EF1D9880B44D9A92020B405590F94A48D67* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeBridge_stopMirror_m2DF7B0DF5410433D4F8FDACA8400BA3F7B268AC4 (NativeBridge_tC5D70EF1D9880B44D9A92020B405590F94A48D67* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeBridge_uninit_m611FB1257D0CFA78E7383B69E96FFDBF7DDC7A53 (NativeBridge_tC5D70EF1D9880B44D9A92020B405590F94A48D67* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
@@ -751,9 +753,9 @@ inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List
 IL2CPP_EXTERN_C void DEFAULT_CALL _init(char*, char*);
 IL2CPP_EXTERN_C void DEFAULT_CALL _startBrowse();
 IL2CPP_EXTERN_C void DEFAULT_CALL _stopBrowse();
-IL2CPP_EXTERN_C void DEFAULT_CALL _connect();
+IL2CPP_EXTERN_C void DEFAULT_CALL _connect(char*);
 IL2CPP_EXTERN_C void DEFAULT_CALL _disconnect();
-IL2CPP_EXTERN_C void DEFAULT_CALL _startMirror(char*);
+IL2CPP_EXTERN_C void DEFAULT_CALL _startMirror();
 IL2CPP_EXTERN_C void DEFAULT_CALL _stopMirror();
 #ifdef __clang__
 #pragma clang diagnostic push
@@ -1055,51 +1057,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidBridge_stopBrowse_mED70FE9F6A2CB8
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidBridge_connect_mC87D12F4CEC32329CFA0BEF606D1EF77F1FAD0BB (AndroidBridge_tC5DBDD1EC2B6DC7278CB7523EE307C02101CEB88* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LeLog_t4A0DFBA534C697E380838BA872CADBD86CCAB152_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral987B84E07C730591A1AF179C42E2989C3802E494);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(LeLog_t4A0DFBA534C697E380838BA872CADBD86CCAB152_il2cpp_TypeInfo_var);
-		LeLog_Log_mA56BE3D5B2B932F0E3050257AA144689CDE53A49(_stringLiteral987B84E07C730591A1AF179C42E2989C3802E494, NULL);
-		return;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidBridge_disconnect_mED5264051C17F3DDF140B3948EC860C26E5CE156 (AndroidBridge_tC5DBDD1EC2B6DC7278CB7523EE307C02101CEB88* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LeLog_t4A0DFBA534C697E380838BA872CADBD86CCAB152_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7AE929875650C3C5B9ACF22D0D10DC9ADD3B6EB1);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(LeLog_t4A0DFBA534C697E380838BA872CADBD86CCAB152_il2cpp_TypeInfo_var);
-		LeLog_Log_mA56BE3D5B2B932F0E3050257AA144689CDE53A49(_stringLiteral7AE929875650C3C5B9ACF22D0D10DC9ADD3B6EB1, NULL);
-		return;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidBridge_startMirror_mC1F81CB588633718168143024E95BB963C5DAB49 (AndroidBridge_tC5DBDD1EC2B6DC7278CB7523EE307C02101CEB88* __this, String_t* ___0_deviceName, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidBridge_connect_m5F2EC593D01C425A20211BDED3D5C86CCEC3FF4A (AndroidBridge_tC5DBDD1EC2B6DC7278CB7523EE307C02101CEB88* __this, String_t* ___0_deviceName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LeLog_t4A0DFBA534C697E380838BA872CADBD86CCAB152_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral812FDC7F526E177FCB20C9DF732EA761398B28BC);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBEF4CF38B13EC796FE65092936DAE67D8ECEFF42);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0FD7B3C1033C1EF1C45607B35492B62E1CFC7C11);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral409C470AAAA75E6B7289D66359C5605FFDF1DFA1);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
 		String_t* L_0 = ___0_deviceName;
 		String_t* L_1;
-		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral812FDC7F526E177FCB20C9DF732EA761398B28BC, L_0, NULL);
+		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral409C470AAAA75E6B7289D66359C5605FFDF1DFA1, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(LeLog_t4A0DFBA534C697E380838BA872CADBD86CCAB152_il2cpp_TypeInfo_var);
 		LeLog_Log_mA56BE3D5B2B932F0E3050257AA144689CDE53A49(L_1, NULL);
 		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_2 = __this->___lelinkSoureSDK;
@@ -1110,7 +1082,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidBridge_startMirror_mC1F81CB588633
 		ArrayElementTypeCheck (L_4, L_5);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject*)L_5);
 		NullCheck(L_2);
-		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_2, _stringLiteralBEF4CF38B13EC796FE65092936DAE67D8ECEFF42, L_4, NULL);
+		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_2, _stringLiteral0FD7B3C1033C1EF1C45607B35492B62E1CFC7C11, L_4, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidBridge_disconnect_mED5264051C17F3DDF140B3948EC860C26E5CE156 (AndroidBridge_tC5DBDD1EC2B6DC7278CB7523EE307C02101CEB88* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LeLog_t4A0DFBA534C697E380838BA872CADBD86CCAB152_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7AE929875650C3C5B9ACF22D0D10DC9ADD3B6EB1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC21AA4F5FE69346E31AFC76EDFE0CD96E3B75776);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(LeLog_t4A0DFBA534C697E380838BA872CADBD86CCAB152_il2cpp_TypeInfo_var);
+		LeLog_Log_mA56BE3D5B2B932F0E3050257AA144689CDE53A49(_stringLiteral7AE929875650C3C5B9ACF22D0D10DC9ADD3B6EB1, NULL);
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___lelinkSoureSDK;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
+		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_0);
+		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_0, _stringLiteralC21AA4F5FE69346E31AFC76EDFE0CD96E3B75776, L_1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidBridge_startMirror_mDC9645CBFA4A557F331EA40B35361BCA125E6A3D (AndroidBridge_tC5DBDD1EC2B6DC7278CB7523EE307C02101CEB88* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LeLog_t4A0DFBA534C697E380838BA872CADBD86CCAB152_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral20DBF11F2C0F751DFB3DC519A06FA68400709A39);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBEF4CF38B13EC796FE65092936DAE67D8ECEFF42);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(LeLog_t4A0DFBA534C697E380838BA872CADBD86CCAB152_il2cpp_TypeInfo_var);
+		LeLog_Log_mA56BE3D5B2B932F0E3050257AA144689CDE53A49(_stringLiteral20DBF11F2C0F751DFB3DC519A06FA68400709A39, NULL);
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_0 = __this->___lelinkSoureSDK;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1;
+		L_1 = Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_inline(Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
+		NullCheck(L_0);
+		AndroidJavaObject_Call_mDEF7846E2AB1C5379069BB21049ED55A9D837B1C(L_0, _stringLiteralBEF4CF38B13EC796FE65092936DAE67D8ECEFF42, L_1, NULL);
 		return;
 	}
 }
@@ -1359,11 +1375,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge__stopBrowse_m9B1A0DD742F04A334
 	reinterpret_cast<PInvokeFunc>(_stopBrowse)();
 
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge__connect_m31C31CFAA215B38794551D3DA1E73B7C6262B635 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge__connect_mAE122C478EC31FE294DAA8841DE2DCB584CFD63A (String_t* ___0_deviceName, const RuntimeMethod* method) 
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
 
-	reinterpret_cast<PInvokeFunc>(_connect)();
+	char* ____0_deviceName_marshaled = NULL;
+	____0_deviceName_marshaled = il2cpp_codegen_marshal_string(___0_deviceName);
+
+	reinterpret_cast<PInvokeFunc>(_connect)(____0_deviceName_marshaled);
+
+	il2cpp_codegen_marshal_free(____0_deviceName_marshaled);
+	____0_deviceName_marshaled = NULL;
 
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge__disconnect_m1AC5C7AB8E3FF5E7805221A9424549DE7928510E (const RuntimeMethod* method) 
@@ -1373,17 +1395,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge__disconnect_m1AC5C7AB8E3FF5E78
 	reinterpret_cast<PInvokeFunc>(_disconnect)();
 
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge__startMirror_m8CA8C60D002FB56A345DBF7C8EDFE884CFEC4996 (String_t* ___0_deviceName, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge__startMirror_m0FE229692E1CDBD2BA20343D701F24E96104ABE9 (const RuntimeMethod* method) 
 {
-	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
 
-	char* ____0_deviceName_marshaled = NULL;
-	____0_deviceName_marshaled = il2cpp_codegen_marshal_string(___0_deviceName);
-
-	reinterpret_cast<PInvokeFunc>(_startMirror)(____0_deviceName_marshaled);
-
-	il2cpp_codegen_marshal_free(____0_deviceName_marshaled);
-	____0_deviceName_marshaled = NULL;
+	reinterpret_cast<PInvokeFunc>(_startMirror)();
 
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge__stopMirror_mC7699FF0E958C82FA65D5DD80860E2D6522877F9 (const RuntimeMethod* method) 
@@ -1477,19 +1493,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge_stopBrowse_m49AD66395F0BFD032E
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge_connect_mEA420D686EAA7FE9EF0CA08F913AC87D89EF4FC7 (iOSBridge_t98A05DF84AC58F76C0D102F10D6D6DA719D22E36* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge_connect_mD53367592206704580E37F32EDFD1D9275DDC49C (iOSBridge_t98A05DF84AC58F76C0D102F10D6D6DA719D22E36* __this, String_t* ___0_deviceName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LeLog_t4A0DFBA534C697E380838BA872CADBD86CCAB152_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE29FC36DD635E101972BC2D2C1DE1EB5C9612BE6);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2F86EDCB60CFBA0D68FE3BE88CD6E293852B7E05);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		String_t* L_0 = ___0_deviceName;
+		String_t* L_1;
+		L_1 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral2F86EDCB60CFBA0D68FE3BE88CD6E293852B7E05, L_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(LeLog_t4A0DFBA534C697E380838BA872CADBD86CCAB152_il2cpp_TypeInfo_var);
-		LeLog_Log_mA56BE3D5B2B932F0E3050257AA144689CDE53A49(_stringLiteralE29FC36DD635E101972BC2D2C1DE1EB5C9612BE6, NULL);
-		iOSBridge__connect_m31C31CFAA215B38794551D3DA1E73B7C6262B635(NULL);
+		LeLog_Log_mA56BE3D5B2B932F0E3050257AA144689CDE53A49(L_1, NULL);
+		String_t* L_2 = ___0_deviceName;
+		iOSBridge__connect_mAE122C478EC31FE294DAA8841DE2DCB584CFD63A(L_2, NULL);
 		return;
 	}
 }
@@ -1509,7 +1529,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge_disconnect_m9E71854312BCA18B7E
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge_startMirror_mE46141C6290042ADA3DC82AE94CE44833E5EB885 (iOSBridge_t98A05DF84AC58F76C0D102F10D6D6DA719D22E36* __this, String_t* ___0_deviceName, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge_startMirror_mF40F6C215E5882C7D5AC72C2FE41A6892B426E5F (iOSBridge_t98A05DF84AC58F76C0D102F10D6D6DA719D22E36* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1521,8 +1541,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void iOSBridge_startMirror_mE46141C6290042ADA
 	{
 		il2cpp_codegen_runtime_class_init_inline(LeLog_t4A0DFBA534C697E380838BA872CADBD86CCAB152_il2cpp_TypeInfo_var);
 		LeLog_Log_mA56BE3D5B2B932F0E3050257AA144689CDE53A49(_stringLiteral0904325D155CC39EC3C59A1A51A94909D5F6FFFD, NULL);
-		String_t* L_0 = ___0_deviceName;
-		iOSBridge__startMirror_m8CA8C60D002FB56A345DBF7C8EDFE884CFEC4996(L_0, NULL);
+		iOSBridge__startMirror_m0FE229692E1CDBD2BA20343D701F24E96104ABE9(NULL);
 		return;
 	}
 }
@@ -1923,7 +1942,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LelinkSDK_stopBrowse_mCCFAF3F1E89306877A
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LelinkSDK_connect_m9FE2211FA4F769CE9A3523BFBE77D0943E5B1E03 (LelinkSDK_tB0DAEF28EA423A0D026E7576B65463F9C4BDE08C* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LelinkSDK_connect_mED0FCD88127D776E9B6F77370C8FAC23FC81DF49 (LelinkSDK_tB0DAEF28EA423A0D026E7576B65463F9C4BDE08C* __this, String_t* ___0_deviceName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1936,8 +1955,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LelinkSDK_connect_m9FE2211FA4F769CE9A352
 		il2cpp_codegen_runtime_class_init_inline(LeLog_t4A0DFBA534C697E380838BA872CADBD86CCAB152_il2cpp_TypeInfo_var);
 		LeLog_Log_mA56BE3D5B2B932F0E3050257AA144689CDE53A49(_stringLiteral7D61F504FC4ED45E20479EE89166365EC389DC33, NULL);
 		NativeBridge_tC5D70EF1D9880B44D9A92020B405590F94A48D67* L_0 = __this->___mNativeridge;
+		String_t* L_1 = ___0_deviceName;
 		NullCheck(L_0);
-		NativeBridge_connect_m36D4AD001D0FAB0EA27425EA33AABBA2773BC2E4(L_0, NULL);
+		NativeBridge_connect_m9853A2598EFDEE63F698AE7FB248197F96D8D67B(L_0, L_1, NULL);
 		return;
 	}
 }
@@ -1959,7 +1979,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LelinkSDK_disconnect_m74A1459C2DF0F8449E
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LelinkSDK_startMirror_mC10A406067A745BA5E637B69301D87CA3E0B8723 (LelinkSDK_tB0DAEF28EA423A0D026E7576B65463F9C4BDE08C* __this, String_t* ___0_deviceName, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LelinkSDK_startMirror_m19E8EE7FE147FBEC2541E4508127FFD265239651 (LelinkSDK_tB0DAEF28EA423A0D026E7576B65463F9C4BDE08C* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1972,9 +1992,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LelinkSDK_startMirror_mC10A406067A745BA5
 		il2cpp_codegen_runtime_class_init_inline(LeLog_t4A0DFBA534C697E380838BA872CADBD86CCAB152_il2cpp_TypeInfo_var);
 		LeLog_Log_mA56BE3D5B2B932F0E3050257AA144689CDE53A49(_stringLiteral6266F0587CF377A222A6D357AA0E1AC1097FB758, NULL);
 		NativeBridge_tC5D70EF1D9880B44D9A92020B405590F94A48D67* L_0 = __this->___mNativeridge;
-		String_t* L_1 = ___0_deviceName;
 		NullCheck(L_0);
-		NativeBridge_startMirror_m881B761C4D71BE5066CE68BD85D84B334D33F501(L_0, L_1, NULL);
+		NativeBridge_startMirror_m6E49504728E7D91B0660D82975DDCB501D8BD080(L_0, NULL);
 		return;
 	}
 }
@@ -2458,7 +2477,7 @@ IL_0013:
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeBridge_connect_m36D4AD001D0FAB0EA27425EA33AABBA2773BC2E4 (NativeBridge_tC5D70EF1D9880B44D9A92020B405590F94A48D67* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeBridge_connect_m9853A2598EFDEE63F698AE7FB248197F96D8D67B (NativeBridge_tC5D70EF1D9880B44D9A92020B405590F94A48D67* __this, String_t* ___0_deviceName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2487,8 +2506,9 @@ IL_0013:
 		il2cpp_codegen_runtime_class_init_inline(LeLog_t4A0DFBA534C697E380838BA872CADBD86CCAB152_il2cpp_TypeInfo_var);
 		LeLog_Log_mA56BE3D5B2B932F0E3050257AA144689CDE53A49(_stringLiteralFF9E568AE5CFF326E40DD2B0A2A57E38C1B8193D, NULL);
 		RuntimeObject* L_1 = __this->___bridge;
+		String_t* L_2 = ___0_deviceName;
 		NullCheck(L_1);
-		InterfaceActionInvoker0::Invoke(5, INativeBridge_t13825BE8E9B3FF862CD6B00A5B465691CC1447ED_il2cpp_TypeInfo_var, L_1);
+		InterfaceActionInvoker1< String_t* >::Invoke(5, INativeBridge_t13825BE8E9B3FF862CD6B00A5B465691CC1447ED_il2cpp_TypeInfo_var, L_1, L_2);
 		return;
 	}
 }
@@ -2526,7 +2546,7 @@ IL_0013:
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeBridge_startMirror_m881B761C4D71BE5066CE68BD85D84B334D33F501 (NativeBridge_tC5D70EF1D9880B44D9A92020B405590F94A48D67* __this, String_t* ___0_deviceName, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeBridge_startMirror_m6E49504728E7D91B0660D82975DDCB501D8BD080 (NativeBridge_tC5D70EF1D9880B44D9A92020B405590F94A48D67* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2555,9 +2575,8 @@ IL_0013:
 		il2cpp_codegen_runtime_class_init_inline(LeLog_t4A0DFBA534C697E380838BA872CADBD86CCAB152_il2cpp_TypeInfo_var);
 		LeLog_Log_mA56BE3D5B2B932F0E3050257AA144689CDE53A49(_stringLiteral52D13CFBB2F90EB78114B490E700652D93439B64, NULL);
 		RuntimeObject* L_1 = __this->___bridge;
-		String_t* L_2 = ___0_deviceName;
 		NullCheck(L_1);
-		InterfaceActionInvoker1< String_t* >::Invoke(7, INativeBridge_t13825BE8E9B3FF862CD6B00A5B465691CC1447ED_il2cpp_TypeInfo_var, L_1, L_2);
+		InterfaceActionInvoker0::Invoke(7, INativeBridge_t13825BE8E9B3FF862CD6B00A5B465691CC1447ED_il2cpp_TypeInfo_var, L_1);
 		return;
 	}
 }
@@ -2842,7 +2861,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VirtualNativeBridge_stopBrowse_mD7714547
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VirtualNativeBridge_connect_mBC00A7EC074E33B8B6ABA87E304A989C979E9A68 (VirtualNativeBridge_t9738A1466DD9EC5ABA8D0C92D248FA9CBA9DA374* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VirtualNativeBridge_connect_mA2FAC074A3A756990587685278057D2DC457451F (VirtualNativeBridge_t9738A1466DD9EC5ABA8D0C92D248FA9CBA9DA374* __this, String_t* ___0_deviceName, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2872,7 +2891,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VirtualNativeBridge_disconnect_m959852DF
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VirtualNativeBridge_startMirror_m276E9D41E5F0041712335897C626156F44DD2367 (VirtualNativeBridge_t9738A1466DD9EC5ABA8D0C92D248FA9CBA9DA374* __this, String_t* ___0_deviceName, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VirtualNativeBridge_startMirror_m5B6005B92EFF7E0B5B3EBA5829A25971FDAFAAC0 (VirtualNativeBridge_t9738A1466DD9EC5ABA8D0C92D248FA9CBA9DA374* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)

@@ -86,6 +86,28 @@ NS_ASSUME_NONNULL_BEGIN
  userId: 用户ID;
  */
 - (void)mirrorPublicStreamQuality:(NSDictionary *)quality andRTCQualitys:(NSArray<NSDictionary *> *)rtcQualitys;
+
+/// 镜像质量数据回调
+/// @param videoFPS 帧率
+/// @param bitRate 码率
+/// @param resolution 分辨率
+- (void)mirrorQualityVideoFPS:(int)videoFPS videoBitRate:(int)bitRate resolution:(CGSize)resolution;
+
+/// 云镜像RTC相关信息回调
+- (void)mirrorPublicRTCQualitys:(NSDictionary *)rtcQuality;
+
+/// 镜像视频数据
+/// @param videoFrame 视频数据
+- (void)mirrorReceiveVideoFrame:(id _Nullable)videoFrame;
+
+/// 镜像音频数据
+/// @param audioFrame 音频数据
+- (void)mirrorReceiveAudioFrame:(id _Nullable)audioFrame;
+
+/// 云镜像的提供者
+/// @param providerSource 云镜像的提供者
+- (void)mirrorCloudProviderSource:(LBCloudMirrorProviderType)providerSource;
+
 @end
 
 @interface LBLelinkMirrorEngine : NSObject
@@ -155,6 +177,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 上报镜像错误（镜像审核使用）
 - (void)mirrorWithAudit:(NSError *)error;
+
+
+/// 设置扩展API
+/// - Parameter dict: key为api方法，value为参数，参数有多个时，传参数数组
+/// 现支持设置镜像后台限制的超时时间，超一定时间，会自动结束镜像，默认为300s，可修改，key为@“setBackgroundTimeoutInterval:”，value为@(300)
+- (void)setExtensionAPI:(NSDictionary *)dict;
 
 @end
 

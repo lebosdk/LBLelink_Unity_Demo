@@ -23,7 +23,6 @@ public class LelinkSDK : INativeBridge
         return sInstance;
     }
 
-
     public void init(string appId, string appSecret){
         LeLog.Log($"{TAG} init");
         mNativeridge.init(appId, appSecret);
@@ -49,9 +48,9 @@ public class LelinkSDK : INativeBridge
         mNativeridge.stopBrowse();
     }
 
-    public void connect(){
+    public void connect(string deviceName){
         LeLog.Log($"{TAG} connect");
-        mNativeridge.connect();
+        mNativeridge.connect(deviceName);
     }
 
     public void disconnect(){
@@ -59,9 +58,9 @@ public class LelinkSDK : INativeBridge
         mNativeridge.disconnect();
     }
 
-    public void startMirror(string deviceName){
+    public void startMirror(){
         LeLog.Log($"{TAG} startMirror");
-        mNativeridge.startMirror(deviceName);
+        mNativeridge.startMirror();
     }
 
     public void stopMirror(){

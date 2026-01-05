@@ -26,6 +26,9 @@ typedef NS_ENUM(NSInteger, LBLelinkMirrorErrorCode) {
     LBLelinkMirrorErrorFaceRecognition = -3033, /**< 镜像需人脸识别认证 */
     LBLelinkMirrorErrorMirrorProtocolBeBanned = -3034, /**< 匹配到的镜像协议被封禁 */
     LBLelinkMirrorErrorCloudMirrorRefused = - 3035,     ///云镜像被拒绝
+    LBLelinkMirrorErrorMirrorStartAppExternalLimitStop = -3040,           // 镜像启动时在APP外部被限制停止
+    LBLelinkMirrorErrorMirroringAppExternalLimit = -3041,                 // 镜像过程中在APP外部被限制暂停
+    LBLelinkMirrorErrorMirroringAppExternalLimitTimeoutStop = -3042,      // 镜像过程中在APP外部被限制超时停止
 };
 
 /* 镜像扩展程序相关错误代码*/

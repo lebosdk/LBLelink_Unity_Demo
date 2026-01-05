@@ -245,8 +245,14 @@ typedef NS_ENUM(NSInteger, LBLelinkSaaSInterfaceErrorCode) {
     LBLelinkSaaSInterfaceErrorDataIsNil = -12008,       // 数据为空
     LBLelinkSaaSInterfaceErrorDataInconsistency = -12009,// 图形验证码与TV端数据不一致
     LBLelinkSaaSInterfaceErrorInvalidScreenCastingCode = -12010,//无效投屏码
-    LBLelinkSaasInterfaceErrorLoginInvalidation = -12011, /**< 用户登录已失效 */
     LBLelinkSaasInterfaceErrorCancel = -12011,          /**< 用户取消接口请求 */
+    LBLelinkSaasInterfaceErrorLoginInvalidation = -12012, /**< 用户登录已失效 --- 不确定是收端失效还是发端失效 */
+    LBLelinkSaasInterfaceErrorSenderTokenInvalidation = -12013,     /**< 发送端用户登录Token失效 */
+    LBLelinkSaasInterfaceErrorReceiverTokenInvalidation = -12014,       /**< 接收端用户登录Token失效 */
+    LBLelinkSaasInterfaceErrorMeetingIdMistakeOrMeetingFinished = -12015,       /**< 输入投屏码错误或投屏已结束 */
+    LBLelinkSaaSInterfaceErrorRequestTimeout = -12016,                  /**< 接口请求超时 */
+    LBLelinkSaaSInterfaceErrorFailedHostName = -12017,                  /**< 未能找到使用指定主机名的服务器 */
+    LBLelinkSaaSInterfaceErrorINetworkConnectionLost = -12018,          /**< 网络已中断 */
 };
 
 /** 设备收藏和保存历史投屏记录 相关接口错误码*/

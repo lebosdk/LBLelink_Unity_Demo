@@ -9,6 +9,14 @@
 #import <Foundation/Foundation.h>
 #import <ReplayKit/ReplayKit.h>
 
+typedef NS_ENUM(NSInteger, LelinkMirrorProviderType) {
+    LelinkMirrorProviderTypeLelink = 0,         /**< 局域网镜像 - 乐联 */
+    LelinkMirrorProviderTypeTRTC = 1,           /**<  云镜像 - TRTC */
+    LelinkMirrorProviderTypeYoume = 4,          /**<  云镜像 - Youme */
+    LelinkMirrorProviderTypeZego = 5,           /**<  云镜像 - Zego */
+    LelinkMirrorProviderTypeNe = 6               /**<  云镜像 - Ne */
+};
+
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol LBLelinkMirrorExtensionDelegate <NSObject>
@@ -26,6 +34,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 宿主APP的心跳，超过时间则可以视为宿主被杀死
 - (void)hostAppReceiveHeartBeat;
+
+/// 镜像方式来源
+/// - Parameter provider: 0：局域网镜像；1：TRTC；4：Youme; 5:Zego；6：NE
+- (void)lelinkMirrorExtensionMirroringProvider:(LelinkMirrorProviderType)provider;
 
 @end
 

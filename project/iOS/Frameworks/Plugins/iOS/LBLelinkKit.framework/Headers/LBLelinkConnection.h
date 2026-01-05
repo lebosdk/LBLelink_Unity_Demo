@@ -300,6 +300,10 @@ typedef NS_ENUM(NSInteger, LBServerNorMsgType) {
 @property (nonatomic, assign) BOOL openMirrorSwitchSpace;
 /// 重连管理对象
 @property (nonatomic, strong, readonly) LBRetryConnectManager *retryConnectManager;
+/// 连接返回的能力值
+@property (nonatomic, strong, readonly, nullable) NSDictionary *connectBodyDic;
+/// 连接后透传返回的能力值
+@property (nonatomic, strong, readonly, nullable) NSDictionary *connectedPassthDict;
 
 /**
  初始化方法，使用此方法初始化之后，需要设置连接代理属性以及用于连接的服务
@@ -394,6 +398,9 @@ typedef NS_ENUM(NSInteger, LBServerNorMsgType) {
 - (BOOL)canPublicPush;
 
 - (BOOL)canPassthPluginInfo;
+
+/// 获取当前连接的收端能力值
+- (id)getReceiverCapacityForKey:(NSString *_Nullable)key;
 
 /// 微应用插件信息推送
 /// @param appId 应用ID

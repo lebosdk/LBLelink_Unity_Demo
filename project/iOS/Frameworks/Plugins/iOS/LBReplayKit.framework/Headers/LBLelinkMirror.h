@@ -109,6 +109,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 断开镜像连接
 - (void)disconnectMirror;
 
+/// 获取视频分辨率
+- (CGSize)getVideoResolution;
+
 @end
 
 NS_ASSUME_NONNULL_END

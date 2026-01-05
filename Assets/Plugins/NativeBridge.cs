@@ -13,19 +13,6 @@ public class NativeBridge : INativeBridge
     private INativeBridge bridge;
 
     public NativeBridge(){
-    //     #if UNITY_ANDROID
-    //         bridge = new AndroidBridge();
-    //     #elif UNITY_HARMONYOS
-    //         bridge = new VirtualNativeBridge();
-    //     #elif UNITY_IOS
-    //    // iOS 平台特定代码
-    //         // bridge = new iOSBridge();
-    //    #if UNITY_HARMONYOS
-    //         //bridge = new HarmonyOSBridge();
-    //     #else
-    //    // 其他平台代码
-    //         bridge = new VirtualNativeBridge();
-    //     #endif
         LeLog.Log($"{TAG} Application.platform: {Application.platform}");
         if(Application.platform == RuntimePlatform.Android){
             bridge = new AndroidBridge();
@@ -81,13 +68,13 @@ public class NativeBridge : INativeBridge
         bridge.stopBrowse();
     }
 
-    public void connect(){
+    public void connect(string deviceName){
         if(bridge == null){
             LeLog.LogWarning($"{TAG} bridge is null");
             return;
         }
         LeLog.Log($"{TAG} connect");
-        bridge.connect();
+        bridge.connect(deviceName);
     }
 
     public void disconnect(){
@@ -99,13 +86,13 @@ public class NativeBridge : INativeBridge
         bridge.disconnect();
     }
 
-    public void startMirror(string deviceName){
+    public void startMirror(){
         if(bridge == null){
             LeLog.LogWarning($"{TAG} bridge is null");
             return;
         }
         LeLog.Log($"{TAG} startMirror");
-        bridge.startMirror(deviceName);
+        bridge.startMirror();
     }
 
     public void stopMirror(){

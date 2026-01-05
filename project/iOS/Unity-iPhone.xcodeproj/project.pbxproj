@@ -27,20 +27,18 @@
 		826E40C67FAA509B29A0EFA3 /* IUnityGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 30347B5D7991A325732A4F10 /* IUnityGraphics.h */; };
 		862C245020AEC7AC006FB4AD /* UnityWebRequest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 862C244F20AEC7AC006FB4AD /* UnityWebRequest.mm */; };
 		86775FD443B0CB439EAE6FB5 /* LBAPIBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D10C40E5B6EA02F98D4DCE /* LBAPIBridge.m */; };
-		87F7AB0D2DBFA02000AEB11D /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F7AB0C2DBFA02000AEB11D /* ReplayKit.framework */; };
-		87F7AB152DBFA02000AEB11D /* capture.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 87F7AB0B2DBFA02000AEB11D /* capture.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		87F7AB1F2DBFA14900AEB11D /* LBLelinkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0259FF84B1E62CD645584872 /* LBLelinkKit.framework */; };
-		87F7AB212DBFA15100AEB11D /* LBReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6808BE2ED3849EFB64E1BDC3 /* LBReplayKit.framework */; };
-		87F7AB232DBFA15700AEB11D /* LBReplayKitExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAD4954194B449CC5C222A9 /* LBReplayKitExtension.framework */; };
-		87F7AB252DBFA15E00AEB11D /* LBSREncoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0086EAA44B054D8C09973A8E /* LBSREncoder.framework */; };
-		87F7AB272DBFA1CF00AEB11D /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F7AB262DBFA1CF00AEB11D /* libc++.tbd */; };
-		87F7AB292DBFA1D600AEB11D /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F7AB282DBFA1D600AEB11D /* libxml2.tbd */; };
 		8A20382D213D4B3C005E6C56 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A20382C213D4B3C005E6C56 /* AVKit.framework */; };
 		8A215703245064AA00E582EB /* NoGraphicsHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A2BC6DE245061EE00C7C97D /* NoGraphicsHelper.mm */; };
 		8A3831B5246956AA00CD74FD /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3831B4246956AA00CD74FD /* Metal.framework */; };
 		8BEDFA3929C88F86007F26D7 /* UnityViewControllerBase+visionOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BEDFA3729C88F86007F26D7 /* UnityViewControllerBase+visionOS.h */; };
 		8BEDFA3A29C88F86007F26D7 /* UnityViewControllerBase+visionOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8BEDFA3829C88F86007F26D7 /* UnityViewControllerBase+visionOS.mm */; };
 		8CBC4D0913E06D4FDDFE27B2 /* LBLelinkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0259FF84B1E62CD645584872 /* LBLelinkKit.framework */; };
+		8E955F062F0B6D6700831E16 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E955E9E2F0B6D1C00831E16 /* ReplayKit.framework */; };
+		8E955F0E2F0B6D6700831E16 /* capture.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8E955F052F0B6D6700831E16 /* capture.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8E955F172F0B6DE400831E16 /* LBReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6808BE2ED3849EFB64E1BDC3 /* LBReplayKit.framework */; };
+		8E955F182F0B6DEC00831E16 /* LBReplayKitExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAD4954194B449CC5C222A9 /* LBReplayKitExtension.framework */; };
+		8E955F192F0B6DF200831E16 /* LBSREncoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0086EAA44B054D8C09973A8E /* LBSREncoder.framework */; };
+		8E955F1A2F0B6E8400831E16 /* LBLelinkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0259FF84B1E62CD645584872 /* LBLelinkKit.framework */; };
 		91C1EB5F348833EAD02A7E9A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F2E4BD281D8D2761198E3AA0 /* PrivacyInfo.xcprivacy */; };
 		9BA70426A90DB33FFDF35A71 /* lib_burst_generated.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17B8DA4C2189239C555CC0EC /* lib_burst_generated.cpp */; };
 		9D0A618B21BFE7F30094DC33 /* libiconv.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0A618A21BFE7F30094DC33 /* libiconv.2.tbd */; };
@@ -127,11 +125,11 @@
 			remoteGlobalIDString = 7F4E059F2717216D00A2CBE4;
 			remoteInfo = GameAssembly;
 		};
-		87F7AB132DBFA02000AEB11D /* PBXContainerItemProxy */ = {
+		8E955F0C2F0B6D6700831E16 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 87F7AB0A2DBFA02000AEB11D;
+			remoteGlobalIDString = 8E955F042F0B6D6700831E16;
 			remoteInfo = capture;
 		};
 		9D25ABA2213FB47800354C27 /* PBXContainerItemProxy */ = {
@@ -162,13 +160,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87F7AB1C2DBFA02000AEB11D /* Embed Foundation Extensions */ = {
+		8E955EB72F0B6D1D00831E16 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				87F7AB152DBFA02000AEB11D /* capture.appex in Embed Foundation Extensions */,
+				8E955F0E2F0B6D6700831E16 /* capture.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,11 +391,6 @@
 		85E5623620F4F4D1001DFEF6 /* UnityView+Keyboard.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UnityView+Keyboard.mm"; sourceTree = "<group>"; };
 		862C244F20AEC7AC006FB4AD /* UnityWebRequest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UnityWebRequest.mm; sourceTree = "<group>"; };
 		87605856C2B447518B98EAF3 /* UnityICallRegistration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UnityICallRegistration.cpp; path = Il2CppOutputProject/Source/il2cppOutput/UnityICallRegistration.cpp; sourceTree = SOURCE_ROOT; };
-		87F7AB0B2DBFA02000AEB11D /* capture.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = capture.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		87F7AB0C2DBFA02000AEB11D /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
-		87F7AB1D2DBFA04300AEB11D /* Unity-iPhone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Unity-iPhone.entitlements"; path = "Unity-iPhone/Unity-iPhone.entitlements"; sourceTree = "<group>"; };
-		87F7AB262DBFA1CF00AEB11D /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		87F7AB282DBFA1D600AEB11D /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		888493D0FCBAE7DB55D48B47 /* GenericMethods__17.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = GenericMethods__17.cpp; path = Il2CppOutputProject/Source/il2cppOutput/GenericMethods__17.cpp; sourceTree = SOURCE_ROOT; };
 		88AA051394FF8002BF048FA1 /* Generics__28.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__28.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__28.cpp; sourceTree = SOURCE_ROOT; };
 		88FC6E3CAED8A246BF94CBAC /* UnityEngine.DirectorModule_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = UnityEngine.DirectorModule_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/UnityEngine.DirectorModule_CodeGen.c; sourceTree = SOURCE_ROOT; };
@@ -472,6 +465,9 @@
 		8D13621DBE69B85E504D57D6 /* Generics__66.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__66.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__66.cpp; sourceTree = SOURCE_ROOT; };
 		8DF7D168881C3EF89850AD0A /* Generics__6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__6.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__6.cpp; sourceTree = SOURCE_ROOT; };
 		8E6728ADD56BA33B896627DA /* Generics__1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__1.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__1.cpp; sourceTree = SOURCE_ROOT; };
+		8E955E9E2F0B6D1C00831E16 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		8E955F052F0B6D6700831E16 /* capture.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = capture.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E955F152F0B6D8600831E16 /* Unity-iPhone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Unity-iPhone.entitlements"; path = "Unity-iPhone/Unity-iPhone.entitlements"; sourceTree = "<group>"; };
 		8F13D042492DBEB7CF96DC23 /* Generics__9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__9.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__9.cpp; sourceTree = SOURCE_ROOT; };
 		8F8539D174DC5F6F066347FF /* Generics__39.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Generics__39.cpp; path = Il2CppOutputProject/Source/il2cppOutput/Generics__39.cpp; sourceTree = SOURCE_ROOT; };
 		8FE3E92069BB36F8854D7277 /* __Generated_CodeGen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = __Generated_CodeGen.c; path = Il2CppOutputProject/Source/il2cppOutput/__Generated_CodeGen.c; sourceTree = SOURCE_ROOT; };
@@ -645,17 +641,17 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		87F7AB162DBFA02000AEB11D /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		8E955F0F2F0B6D6700831E16 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 87F7AB0A2DBFA02000AEB11D /* capture */;
+			target = 8E955F042F0B6D6700831E16 /* capture */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		87F7AB0E2DBFA02000AEB11D /* capture */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (87F7AB162DBFA02000AEB11D /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = capture; sourceTree = "<group>"; };
+		8E955F072F0B6D6700831E16 /* capture */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (8E955F0F2F0B6D6700831E16 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = capture; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -682,17 +678,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87F7AB082DBFA02000AEB11D /* Frameworks */ = {
+		8E955F022F0B6D6700831E16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87F7AB292DBFA1D600AEB11D /* libxml2.tbd in Frameworks */,
-				87F7AB272DBFA1CF00AEB11D /* libc++.tbd in Frameworks */,
-				87F7AB1F2DBFA14900AEB11D /* LBLelinkKit.framework in Frameworks */,
-				87F7AB0D2DBFA02000AEB11D /* ReplayKit.framework in Frameworks */,
-				87F7AB232DBFA15700AEB11D /* LBReplayKitExtension.framework in Frameworks */,
-				87F7AB252DBFA15E00AEB11D /* LBSREncoder.framework in Frameworks */,
-				87F7AB212DBFA15100AEB11D /* LBReplayKit.framework in Frameworks */,
+				8E955F192F0B6DF200831E16 /* LBSREncoder.framework in Frameworks */,
+				8E955F182F0B6DEC00831E16 /* LBReplayKitExtension.framework in Frameworks */,
+				8E955F1A2F0B6E8400831E16 /* LBLelinkKit.framework in Frameworks */,
+				8E955F172F0B6DE400831E16 /* LBReplayKit.framework in Frameworks */,
+				8E955F062F0B6D6700831E16 /* ReplayKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -762,8 +756,8 @@
 				1D6058910D05DD3D006BFB54 /* Demo.app */,
 				5623C57317FDCB0800090B9E /* Unity-iPhone Tests.xctest */,
 				9D25AB9D213FB47800354C27 /* UnityFramework.framework */,
-				87F7AB0B2DBFA02000AEB11D /* capture.appex */,
 				7F4E05A02717216D00A2CBE4 /* libGameAssembly.a */,
+				8E955F052F0B6D6700831E16 /* capture.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -779,7 +773,9 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				8E955F152F0B6D8600831E16 /* Unity-iPhone.entitlements */,
 				D82DCFB50E8000A5005D6AD8 /* Classes */,
+				8E955F072F0B6D6700831E16 /* capture */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				08E06EF576D79C4643098BCC /* Il2CppOutputProject */,
 				D8A1C7220E80637F000160D3 /* Libraries */,
@@ -795,8 +791,6 @@
 				5A3A1B4C3FB1FC90023B942E /* LaunchScreen-iPhone.storyboard */,
 				1E24B93E9D27D99850693BAF /* LaunchScreen-iPhoneLandscape.png */,
 				681AA63C19788ACA381FB8C1 /* LaunchScreen-iPhonePortrait.png */,
-				87F7AB1D2DBFA04300AEB11D /* Unity-iPhone.entitlements */,
-				87F7AB0E2DBFA02000AEB11D /* capture */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -821,13 +815,11 @@
 				8A3831B4246956AA00CD74FD /* Metal.framework */,
 				83B2574B0E63022200468741 /* OpenAL.framework */,
 				83B2570A0E62FF8A00468741 /* QuartzCore.framework */,
-				87F7AB0C2DBFA02000AEB11D /* ReplayKit.framework */,
 				5BAD78601F2B5A59006103DE /* Security.framework */,
 				56BCBA380FCF049A0030C3B2 /* SystemConfiguration.framework */,
 				830B5C100E5ED4C100C7819F /* UIKit.framework */,
-				87F7AB262DBFA1CF00AEB11D /* libc++.tbd */,
 				9D0A618A21BFE7F30094DC33 /* libiconv.2.tbd */,
-				87F7AB282DBFA1D600AEB11D /* libxml2.tbd */,
+				8E955E9E2F0B6D1C00831E16 /* ReplayKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1404,13 +1396,13 @@
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
 				9D25ABAB213FB47800354C27 /* Embed Frameworks */,
-				87F7AB1C2DBFA02000AEB11D /* Embed Foundation Extensions */,
+				8E955EB72F0B6D1D00831E16 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				9D25ABA3213FB47800354C27 /* PBXTargetDependency */,
-				87F7AB142DBFA02000AEB11D /* PBXTargetDependency */,
+				8E955F0D2F0B6D6700831E16 /* PBXTargetDependency */,
 			);
 			name = "Unity-iPhone";
 			productName = "iPhone-target";
@@ -1453,24 +1445,26 @@
 			productReference = 7F4E05A02717216D00A2CBE4 /* libGameAssembly.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		87F7AB0A2DBFA02000AEB11D /* capture */ = {
+		8E955F042F0B6D6700831E16 /* capture */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87F7AB172DBFA02000AEB11D /* Build configuration list for PBXNativeTarget "capture" */;
+			buildConfigurationList = 8E955F102F0B6D6700831E16 /* Build configuration list for PBXNativeTarget "capture" */;
 			buildPhases = (
-				87F7AB072DBFA02000AEB11D /* Sources */,
-				87F7AB082DBFA02000AEB11D /* Frameworks */,
-				87F7AB092DBFA02000AEB11D /* Resources */,
+				8E955F012F0B6D6700831E16 /* Sources */,
+				8E955F022F0B6D6700831E16 /* Frameworks */,
+				8E955F032F0B6D6700831E16 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				87F7AB0E2DBFA02000AEB11D /* capture */,
+				8E955F072F0B6D6700831E16 /* capture */,
 			);
 			name = capture;
+			packageProductDependencies = (
+			);
 			productName = capture;
-			productReference = 87F7AB0B2DBFA02000AEB11D /* capture.appex */;
+			productReference = 8E955F052F0B6D6700831E16 /* capture.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		9D25AB9C213FB47800354C27 /* UnityFramework */ = {
@@ -1515,8 +1509,8 @@
 						CreatedOnToolsVersion = 13.0;
 						ProvisioningStyle = Manual;
 					};
-					87F7AB0A2DBFA02000AEB11D = {
-						CreatedOnToolsVersion = 16.2;
+					8E955F042F0B6D6700831E16 = {
+						CreatedOnToolsVersion = 26.0;
 					};
 					9D25AB9C213FB47800354C27 = {
 						CreatedOnToolsVersion = 9.2;
@@ -1544,7 +1538,7 @@
 				5623C57217FDCB0800090B9E /* Unity-iPhone Tests */,
 				9D25AB9C213FB47800354C27 /* UnityFramework */,
 				7F4E059F2717216D00A2CBE4 /* GameAssembly */,
-				87F7AB0A2DBFA02000AEB11D /* capture */,
+				8E955F042F0B6D6700831E16 /* capture */,
 			);
 		};
 /* End PBXProject section */
@@ -1572,7 +1566,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87F7AB092DBFA02000AEB11D /* Resources */ = {
+		8E955F032F0B6D6700831E16 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1629,7 +1623,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87F7AB072DBFA02000AEB11D /* Sources */ = {
+		8E955F012F0B6D6700831E16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1700,10 +1694,10 @@
 			target = 7F4E059F2717216D00A2CBE4 /* GameAssembly */;
 			targetProxy = 7F401A4C272AC77C005AF450 /* PBXContainerItemProxy */;
 		};
-		87F7AB142DBFA02000AEB11D /* PBXTargetDependency */ = {
+		8E955F0D2F0B6D6700831E16 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 87F7AB0A2DBFA02000AEB11D /* capture */;
-			targetProxy = 87F7AB132DBFA02000AEB11D /* PBXContainerItemProxy */;
+			target = 8E955F042F0B6D6700831E16 /* capture */;
+			targetProxy = 8E955F0C2F0B6D6700831E16 /* PBXContainerItemProxy */;
 		};
 		9D25ABA3213FB47800354C27 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1741,10 +1735,6 @@
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 7R34852FKA;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Frameworks/Plugins/iOS",
-				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1769,7 +1759,7 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				UNITY_RUNTIME_VERSION = 2022.3.29f1;
+				UNITY_RUNTIME_VERSION = 2022.3.29f1c1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
 			};
 			name = Debug;
@@ -1791,10 +1781,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = 7R34852FKA;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Frameworks/Plugins/iOS",
-				);
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -1817,7 +1803,7 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				UNITY_RUNTIME_VERSION = 2022.3.29f1;
+				UNITY_RUNTIME_VERSION = 2022.3.29f1c1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
 			};
 			name = Release;
@@ -1863,7 +1849,7 @@
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/$(PRODUCT_NAME_APP).app/$(PRODUCT_NAME_APP)";
-				UNITY_RUNTIME_VERSION = 2022.3.29f1;
+				UNITY_RUNTIME_VERSION = 2022.3.29f1c1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
@@ -1918,7 +1904,7 @@
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/$(PRODUCT_NAME_APP).app/$(PRODUCT_NAME_APP)";
-				UNITY_RUNTIME_VERSION = 2022.3.29f1;
+				UNITY_RUNTIME_VERSION = 2022.3.29f1c1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -1981,10 +1967,6 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 7R34852FKA;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Frameworks/Plugins/iOS",
-				);
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -2007,7 +1989,7 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				UNITY_RUNTIME_VERSION = 2022.3.29f1;
+				UNITY_RUNTIME_VERSION = 2022.3.29f1c1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
 			};
 			name = ReleaseForRunning;
@@ -2053,7 +2035,7 @@
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/$(PRODUCT_NAME_APP).app/$(PRODUCT_NAME_APP)";
-				UNITY_RUNTIME_VERSION = 2022.3.29f1;
+				UNITY_RUNTIME_VERSION = 2022.3.29f1c1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
@@ -2116,10 +2098,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = 7R34852FKA;
 				ENABLE_ON_DEMAND_RESOURCES = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Frameworks/Plugins/iOS",
-				);
 				GCC_ENABLE_CPP_EXCEPTIONS = NO;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -2142,7 +2120,7 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				UNITY_RUNTIME_VERSION = 2022.3.29f1;
+				UNITY_RUNTIME_VERSION = 2022.3.29f1c1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
 			};
 			name = ReleaseForProfiling;
@@ -2188,7 +2166,7 @@
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/$(PRODUCT_NAME_APP).app/$(PRODUCT_NAME_APP)";
-				UNITY_RUNTIME_VERSION = 2022.3.29f1;
+				UNITY_RUNTIME_VERSION = 2022.3.29f1c1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
@@ -2347,7 +2325,7 @@
 			};
 			name = Debug;
 		};
-		87F7AB182DBFA02000AEB11D /* Release */ = {
+		8E955F112F0B6D6700831E16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2365,7 +2343,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = capture/capture.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -2386,7 +2365,7 @@
 				INFOPLIST_FILE = capture/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = capture;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2399,13 +2378,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hpplay.LBLelinkKit.Demo.capture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		87F7AB192DBFA02000AEB11D /* ReleaseForProfiling */ = {
+		8E955F122F0B6D6700831E16 /* ReleaseForProfiling */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2423,7 +2403,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = capture/capture.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -2444,7 +2425,7 @@
 				INFOPLIST_FILE = capture/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = capture;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2457,13 +2438,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hpplay.LBLelinkKit.Demo.capture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = ReleaseForProfiling;
 		};
-		87F7AB1A2DBFA02000AEB11D /* ReleaseForRunning */ = {
+		8E955F132F0B6D6700831E16 /* ReleaseForRunning */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2481,7 +2463,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = capture/capture.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -2502,7 +2485,7 @@
 				INFOPLIST_FILE = capture/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = capture;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2515,13 +2498,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hpplay.LBLelinkKit.Demo.capture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = ReleaseForRunning;
 		};
-		87F7AB1B2DBFA02000AEB11D /* Debug */ = {
+		8E955F142F0B6D6700831E16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2539,7 +2523,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = capture/capture.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -2565,7 +2550,7 @@
 				INFOPLIST_FILE = capture/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = capture;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2578,6 +2563,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hpplay.LBLelinkKit.Demo.capture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2656,7 +2642,7 @@
 				STRIP_STYLE = "non-global";
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				UNITY_RUNTIME_VERSION = 2022.3.29f1;
+				UNITY_RUNTIME_VERSION = 2022.3.29f1c1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
 				WARNING_CFLAGS = "-Wno-missing-declarations";
 			};
@@ -2736,7 +2722,7 @@
 				STRIP_STYLE = "non-global";
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				UNITY_RUNTIME_VERSION = 2022.3.29f1;
+				UNITY_RUNTIME_VERSION = 2022.3.29f1c1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
 				WARNING_CFLAGS = "-Wno-missing-declarations";
 			};
@@ -2817,7 +2803,7 @@
 				STRIP_STYLE = "non-global";
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				UNITY_RUNTIME_VERSION = 2022.3.29f1;
+				UNITY_RUNTIME_VERSION = 2022.3.29f1c1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
 				WARNING_CFLAGS = "-Wno-missing-declarations";
 			};
@@ -2899,7 +2885,7 @@
 				STRIP_STYLE = "non-global";
 				SUPPORTED_PLATFORMS = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				UNITY_RUNTIME_VERSION = 2022.3.29f1;
+				UNITY_RUNTIME_VERSION = 2022.3.29f1c1;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
 				WARNING_CFLAGS = "-Wno-missing-declarations";
 			};
@@ -3021,13 +3007,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87F7AB172DBFA02000AEB11D /* Build configuration list for PBXNativeTarget "capture" */ = {
+		8E955F102F0B6D6700831E16 /* Build configuration list for PBXNativeTarget "capture" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87F7AB182DBFA02000AEB11D /* Release */,
-				87F7AB192DBFA02000AEB11D /* ReleaseForProfiling */,
-				87F7AB1A2DBFA02000AEB11D /* ReleaseForRunning */,
-				87F7AB1B2DBFA02000AEB11D /* Debug */,
+				8E955F112F0B6D6700831E16 /* Release */,
+				8E955F122F0B6D6700831E16 /* ReleaseForProfiling */,
+				8E955F132F0B6D6700831E16 /* ReleaseForRunning */,
+				8E955F142F0B6D6700831E16 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -32,7 +32,7 @@ public class VirtualNativeBridge : INativeBridge
         LeLog.Log($"{TAG} stopBrowse");
     }
 
-    public void connect(){
+    public void connect(string deviceName){
         LeLog.Log($"{TAG} connect");
     }   
 
@@ -40,7 +40,7 @@ public class VirtualNativeBridge : INativeBridge
         LeLog.Log($"{TAG} disconnect");
     }
 
-    public void startMirror(string deviceName){
+    public void startMirror(){
         LeLog.Log($"{TAG} startMirror");
     }
 

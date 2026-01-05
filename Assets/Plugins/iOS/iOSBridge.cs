@@ -4,7 +4,6 @@ using UnityEngine;
 using System.Runtime.InteropServices;
 using static INativeBridge;
 
-
 public class iOSBridge : INativeBridge
 {
     private const string TAG = "iOSBridge";
@@ -21,13 +20,13 @@ public class iOSBridge : INativeBridge
     private static extern void _stopBrowse();
 
     [DllImport("__Internal")]
-    private static extern void _connect();
+    private static extern void _connect(string deviceName);
 
     [DllImport("__Internal")]
     private static extern void _disconnect();
 
     [DllImport("__Internal")]
-    private static extern void _startMirror(string deviceName);
+    private static extern void _startMirror();
     
     [DllImport("__Internal")]
     private static extern void _stopMirror();
@@ -65,10 +64,10 @@ public class iOSBridge : INativeBridge
         #endif
     }
 
-    public void connect(){
-        LeLog.Log($"{TAG} connect");
+    public void connect(string deviceName){
+        LeLog.Log($"{TAG} connect {deviceName}");
         #if UNITY_IOS
-        _connect();
+        _connect(deviceName);
         #endif
     }
 
@@ -79,10 +78,10 @@ public class iOSBridge : INativeBridge
         #endif
     }
 
-    public void startMirror(string deviceName){
+    public void startMirror(){
         LeLog.Log($"{TAG} startMirror");
         #if UNITY_IOS
-        _startMirror(deviceName);
+        _startMirror();
         #endif
     }
 
@@ -96,6 +95,4 @@ public class iOSBridge : INativeBridge
     public void uninit(){
         LeLog.Log($"{TAG} uninit");
     }
-    
-    
 }

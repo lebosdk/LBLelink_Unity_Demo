@@ -30,8 +30,8 @@ typedef struct config VideoEncodeConfig;
 - (void)encoder:(LBSREncoder *)encoder audioEncodedData:(NSData *)data;
 
 // fairplay delegate ,未添加128头的数据
-- (void)encoder:(LBSREncoder *)encoder sps:(NSData *_Nonnull)sps pps:(NSData *_Nonnull)pps recSize:(CGSize)recSize encodeTakeupTime:(long)takeupTime;
-- (void)encoder:(LBSREncoder *)encoder encodedData:(NSData *_Nonnull)data isKeyFrame:(BOOL)isKeyFrame recSize:(CGSize)size encodeTakeupTime:(long)takeupTime;
+- (void)encoder:(LBSREncoder *)encoder sps:(NSData *_Nonnull)sps pps:(NSData *_Nonnull)pps recSize:(CGSize)recSize encodeTakeupTime:(long)takeupTime statTime:(long)statTime;
+- (void)encoder:(LBSREncoder *)encoder encodedData:(NSData *_Nonnull)data isKeyFrame:(BOOL)isKeyFrame recSize:(CGSize)size encodeTakeupTime:(long)takeupTime statTime:(long)statTime;
 
 @optional
 

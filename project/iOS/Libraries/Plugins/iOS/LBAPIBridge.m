@@ -1,10 +1,3 @@
-//
-//  LBAPIBridge.m
-//  Tuanjie-iPhone
-//
-//  Created by lebo on 2025/4/9.
-//
-
 #import "LBAPIBridge.h"
 #include <Foundation/Foundation.h>
 #import <LBLelinkKit/LBLelinkKit.h>
@@ -15,24 +8,6 @@
 #define TAG @"LBAPIBridge"
 // 重定义 NSLog，增加日志前缀
 #define NSLog(fmt, ...) NSLog((@"%@:<%@>: %s " "%d行 : " fmt), TAG, [NSThread currentThread], __FUNCTION__, __LINE__, ##__VA_ARGS__);
-
-
-@interface LBAPIBridge ()<LBLelinkConnectionDelegate>
-+(instancetype)shareInstance;
--(void)initWithAPPID:(NSString*)APPID  APP_SECRET:(NSString*)APP_SECRET;
--(void)startBrowse;
-- (void)stopBrowse;
-- (void)connect;
-- (void)disconnect;
--(void)startMirror:(NSString*)deviceName;
--(void)stopMirror;
-
-@property (nonatomic,strong)LBLelinkBrowser *lelinkBrowser;
-@property (nonatomic,strong)NSMutableArray<LBLelinkService *> *cacheServiceArray;
-@property (nonatomic,strong)LBLelinkConnection *lelinkConnection;
-@property (nonatomic,strong)RPSystemBroadcastPickerView *broadcastPicker;
-
-@end
 
 #ifdef __cplusplus
 extern "C" {
@@ -52,16 +27,20 @@ extern "C" {
         [[LBAPIBridge shareInstance] stopBrowse];
     }
 
-    void _connect() {
-        [[LBAPIBridge shareInstance] connect];
+    void _connect(char* deviceName) {
+        if (deviceName == NULL || strlen(deviceName) == 0) {
+            NSLog(@"connect deviceName is empty");
+            return;
+        }
+        [[LBAPIBridge shareInstance] connect:[NSString stringWithUTF8String:deviceName]];
     }
 
     void _disconnect() {
         [[LBAPIBridge shareInstance] disconnect];
     }
 
-    void _startMirror(char* deviceName) {
-        [LBAPIBridge.shareInstance startMirror:[NSString stringWithUTF8String:deviceName]];
+    void _startMirror() {
+        [[LBAPIBridge shareInstance] startMirror];
     }
     
     void _stopMirror() {
@@ -73,6 +52,17 @@ extern "C" {
 #ifdef __cplusplus
 }
 #endif
+
+#define APP_GROUP_ID @"group.com.hpplay.HPPlayTVBCExtension"
+
+@interface LBAPIBridge ()<LBLelinkConnectionDelegate, LBLelinkMirrorEngineDelegate>
+
+@property (nonatomic,strong)LBLelinkBrowser *lelinkBrowser;
+@property (nonatomic,strong)NSMutableArray<LBLelinkService *> *cacheServiceArray;
+@property (nonatomic,strong)LBLelinkConnection *lelinkConnection;
+@property (nonatomic,strong)RPSystemBroadcastPickerView *broadcastPicker;
+
+@end
 
 
 @implementation LBAPIBridge
@@ -92,6 +82,7 @@ extern "C" {
 
 -(void)initWithAPPID:(NSString *)APPID APP_SECRET:(NSString *)APP_SECRET{
     NSLog(@"initWithAPPID:%@", APPID);
+    [LBLelinkKit setAppGroupId:APP_GROUP_ID];
     [LBLelinkKit enableLog:YES];
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
             NSError * error = nil;
@@ -115,9 +106,10 @@ extern "C" {
     [self.lelinkBrowser stop];
 }
 
-- (void)connect {
-    NSLog(@"connect");
-    [self.lelinkConnection connect];
+- (void)connect:(NSString *)deviceName {
+    NSLog(@"connect %@", deviceName);
+    
+    [self p_connectDeviceWithName:deviceName];
 }
 
 - (void)disconnect {
@@ -125,24 +117,22 @@ extern "C" {
     [self.lelinkConnection disConnect];
 }
 
--(void)startMirror:(NSString *)deviceName{
+-(void)startMirror {
     NSLog(@"startMirror");
-    for (NSInteger i = 0; i < _cacheServiceArray.count; i++) {
-        LBLelinkService *lelinkService = [_cacheServiceArray objectAtIndex:i];
-        if([deviceName isEqualToString:[lelinkService lelinkServiceName]]){
-            [self.lelinkConnection setLelinkService:lelinkService];
-            [self.lelinkConnection connect];
-            break;
-        }
+    if (!self.lelinkConnection.isConnected) {
+        NSLog(@"当前未连接设备，请先连接设备");
+        return;
     }
+    
+    [LBLelinkMirrorEngine shareInstance].delegate = self;
+    [[LBLelinkMirrorEngine shareInstance] setAppGroupId:APP_GROUP_ID];
+    [[LBLelinkMirrorEngine shareInstance] addMirrorDeviceWithConnection:self.lelinkConnection];
 }
 
 -(void)stopMirror{
-//    [[LBLelinkMirrorEngine shareInstance] stopExtensionApp];
     [self showBroadcastPickerCompleteBlock:^(BOOL succeed, NSString *serviceName, NSError *error) {
         
     }];
-    
 }
 
 #pragma mark - Private
@@ -174,6 +164,27 @@ extern "C" {
                                                  functionName:"callFromIOS"
                                                       message:[string UTF8String]];
     });
+}
+
+/// 连接设备
+/// - Parameter deviceName: 设备名称
+- (void)p_connectDeviceWithName:(NSString *)deviceName {
+    
+    NSLog(@"连接设备 %@", deviceName);
+    
+    if (deviceName &&
+        [deviceName isKindOfClass:[NSString class]] &&
+        deviceName.length) {
+        NSArray *devices = [NSArray arrayWithArray:self.cacheServiceArray];
+        for (LBLelinkService *service in devices) {
+            if ([deviceName isEqualToString:service.lelinkServiceName]) {
+                NSLog(@"匹配到设备 %@", service);
+                self.lelinkConnection.lelinkService = service;
+                [self.lelinkConnection connect];
+                break;
+            }
+        }
+    }
 }
 
 #pragma mark - LBLelinkBrowserDelegate
@@ -210,6 +221,7 @@ extern "C" {
  */
 - (void)lelinkConnection:(LBLelinkConnection *)connection onError:(NSError *_Nullable)error {
     
+    NSLog(@"连接设备 %@ 失败, error=%@", connection.lelinkService.lelinkServiceName, error);
 }
 
 /**
@@ -219,10 +231,8 @@ extern "C" {
  @param service 当前连接的服务
  */
 - (void)lelinkConnection:(LBLelinkConnection *)connection didConnectToService:(LBLelinkService *)service{
-    [LBLelinkMirrorEngine shareInstance].delegate = (id)self;
-    [[LBLelinkMirrorEngine shareInstance] setAppGroupId:@"group.com.hpplay.HPPlayTVBCExtension"];
-    [[LBLelinkMirrorEngine shareInstance] addMirrorDeviceWithConnection:connection];
     
+    NSLog(@"连接设备 %@ 成功", service.lelinkServiceName);
 }
 
 /**
@@ -233,6 +243,7 @@ extern "C" {
  */
 - (void)lelinkConnection:(LBLelinkConnection *)connection disConnectToService:(LBLelinkService *)service{
     
+    NSLog(@"设备断开连接 %@", service.lelinkServiceName);
 }
 
 #pragma mark  - LBLelinkMirrorEngineDelegate
@@ -261,10 +272,7 @@ extern "C" {
                 self.broadcastPicker = [[RPSystemBroadcastPickerView alloc] initWithFrame:CGRectMake(200, 200, 100, 100)];
                 self.broadcastPicker.showsMicrophoneButton = NO;
                 // 历史投屏成功过，过滤显示的直播程序列表，首次过滤，会有系统不显示程序的bug
-                NSString *historySuccessed = [[NSUserDefaults standardUserDefaults] objectForKey:@"LBReplayHistorySuccessed"];
-                if ([historySuccessed isEqualToString:@"1"]) {
-                    self.broadcastPicker.preferredExtension = @"com.hpplay.LBLelinkKit.Demo.capture";
-                }
+                self.broadcastPicker.preferredExtension = @"com.hpplay.LBLelinkKit.Demo.capture";
             } else {
                 // Fallback on earlier versions
             }
@@ -302,30 +310,41 @@ extern "C" {
 
 
 - (void)mirrorAddMirrorDeviceFailureConnection:(LBLelinkConnection *)lelinkConnection error:(NSError *)error{
+    NSLog(@"mirrorAddMirrorDeviceFailureConnection error = %@", error);
 }
 
 
 - (void)mirrorOnError:(NSError *)error mirrorStype:(LBLelinkMirrorStype)mirrorStype{
+    NSLog(@"mirrorOnError error = %@", error);
 }
 - (void)mirrorDidBroadcastExtensionStartedMirrorStype:(LBLelinkMirrorStype)mirrorStype{
+    NSLog(@"mirrorDidBroadcastExtensionStartedMirrorStype mirrorStype = %lu", (unsigned long)mirrorStype);
 }
 
 - (void)mirrorDidBroadcastExtensionStopedMirrorStype:(LBLelinkMirrorStype)mirrorStype{
+    NSLog(@"mirrorDidBroadcastExtensionStopedMirrorStype mirrorStype = %lu", (unsigned long)mirrorStype);
 }
 
 - (void)mirrorMirrorDeviceDidConnectConnection:(LBLelinkConnection *)lelinkConnection mirrorStype:(LBLelinkMirrorStype)mirrorStype{
     //镜像成功
-    [[NSUserDefaults standardUserDefaults] setObject:@"1" forKey:@"LBReplayHistorySuccessed"];
+    NSLog(@"镜像成功");
 }
 - (void)mirrorMirrorDeviceDisConnectConnection:(LBLelinkConnection *)lelinkConnection mirrorStype:(LBLelinkMirrorStype)mirrorStype{
     // 镜像断开
+    NSLog(@"镜像断开");
 }
 - (void)mirrorStateMirroring:(BOOL)mirroring mirrorStype:(LBLelinkMirrorStype)mirrorStype{
     // 镜像状态变化回调
+    NSLog(@"mirrorStateMirroring mirroring = %@ mirrorStype = %lu", mirroring ? @"YES" : @"NO", (unsigned long)mirrorStype);
 }
 
+- (void)mirrorPublicStreamQuality:(nonnull NSDictionary *)quality andRTCQualitys:(nonnull NSArray<NSDictionary *> *)rtcQualitys { 
+    NSLog(@"mirrorPublicStreamQuality quality = %@ rtcQualitys = %@", quality, rtcQualitys);
+}
 
-- (LBLelinkBrowser *)lelinkBrowser{
+#pragma mark  - Lazy
+
+- (LBLelinkBrowser *)lelinkBrowser {
     if (_lelinkBrowser == Nil) {
         _lelinkBrowser = [[LBLelinkBrowser alloc] init];
         _lelinkBrowser.delegate = (id)self;
@@ -333,14 +352,14 @@ extern "C" {
     return _lelinkBrowser;
 }
 
--(NSMutableArray *)cacheServiceArray{
+-(NSMutableArray *)cacheServiceArray {
     if(_cacheServiceArray == Nil) {
         _cacheServiceArray = [NSMutableArray array];
     }
     return _cacheServiceArray;
 }
 
-- (LBLelinkConnection *)lelinkConnection{
+- (LBLelinkConnection *)lelinkConnection {
     if(_lelinkConnection == Nil) {
         _lelinkConnection = [[LBLelinkConnection alloc] init];
         _lelinkConnection.delegate = self;

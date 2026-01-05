@@ -33,44 +33,45 @@ public class ButtonClick : MonoBehaviour
         
     }
 
+    /// 初始化 SDK
     public void init() {
         LeLog.Log($"OnButtonClick {Application.platform}");
-        if(Application.platform == RuntimePlatform.Android){
-            // Android demo
-            LelinkSDK.getInstance().init("9999", "68bbd5646a32df651db861930f63158e");
-        } else if(Application.platform == RuntimePlatform.IPhonePlayer){
-            //iOS demo
-            LelinkSDK.getInstance().init("15442","3750af11e5cc4592cfa5c95664d5f23c");
-        } else {
-            LelinkSDK.getInstance().init("__PLACEHOLDER__","__PLACEHOLDER__");
-        }
-
+        
+        LelinkSDK.getInstance().init("15442","3750af11e5cc4592cfa5c95664d5f23c");
     }
 
+    /// 开始搜索设备
     public void browse() {
         LelinkSDK.getInstance().startBrowse();
     }
 
-    /// 停止搜索
+    /// 停止搜索设备
     public void stopBrowse() {
         LelinkSDK.getInstance().stopBrowse();
     }
 
+    /// 连接设备
     public void connectDevice() {
-        LelinkSDK.getInstance().connect();
-    }
-
-    public void mirror() {
         string deviceName = AppCastConfig.getInstance().getDeviceName();
         if(deviceName != null && deviceName != ""){
-            LelinkSDK.getInstance().startMirror(deviceName);
+            LelinkSDK.getInstance().connect(deviceName);
         } else {
             LeLog.LogWarning("deviceName is null or empty");
         }
     }
 
+    /// 断开当前连接的设备
+    public void disconnect() {
+        LelinkSDK.getInstance().disconnect();
+    }
+
+    /// 开始镜像
+    public void mirror() {
+        LelinkSDK.getInstance().startMirror();
+    }
+
+    /// 停止镜像
     public void stopMirror() {
         LelinkSDK.getInstance().stopMirror();
     }
-
 }

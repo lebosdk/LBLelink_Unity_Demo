@@ -22,6 +22,7 @@ extern void ButtonClick_init_m43FFD866691AA07963EEC54678F46FF27898C012 (void);
 extern void ButtonClick_browse_m2B0FF7D73F31F84620BA7D3601D5DE2BEFFDB1FD (void);
 extern void ButtonClick_stopBrowse_m6F41D87D5E298C4970FAEE9BE3472754701078FB (void);
 extern void ButtonClick_connectDevice_m3A023DDB5BDE8C55CF8392CCCE4BDF587F9F20E4 (void);
+extern void ButtonClick_disconnect_mD90E99E5269A7469A0A628A92E311FEB4C6E215E (void);
 extern void ButtonClick_mirror_m13489FD8A288E837E5D6CE6036CB5E9741241618 (void);
 extern void ButtonClick_stopMirror_mB9932FC5CB18EC3016DCFC82A39DF9151C30AEE7 (void);
 extern void ButtonClick__ctor_m76945B80FD3A53C5406A5F47AA76647CECE4CA57 (void);
@@ -299,7 +300,7 @@ extern void U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4854C2C509C77BD18F5A9B6D691B0
 extern void U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD80368E9B7E259311C03E406B75161ED6F7618E3 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19 (void);
-static Il2CppMethodPointer s_methodPointers[287] = 
+static Il2CppMethodPointer s_methodPointers[288] = 
 {
 	AppCastConfig__ctor_m528BA0A13B8E478E5AABC49F10B9306E8E2698A9,
 	AppCastConfig_getInstance_m9F3E208816850FF60819BD4E8FF56506A4A8A37E,
@@ -311,6 +312,7 @@ static Il2CppMethodPointer s_methodPointers[287] =
 	ButtonClick_browse_m2B0FF7D73F31F84620BA7D3601D5DE2BEFFDB1FD,
 	ButtonClick_stopBrowse_m6F41D87D5E298C4970FAEE9BE3472754701078FB,
 	ButtonClick_connectDevice_m3A023DDB5BDE8C55CF8392CCCE4BDF587F9F20E4,
+	ButtonClick_disconnect_mD90E99E5269A7469A0A628A92E311FEB4C6E215E,
 	ButtonClick_mirror_m13489FD8A288E837E5D6CE6036CB5E9741241618,
 	ButtonClick_stopMirror_mB9932FC5CB18EC3016DCFC82A39DF9151C30AEE7,
 	ButtonClick__ctor_m76945B80FD3A53C5406A5F47AA76647CECE4CA57,
@@ -589,12 +591,13 @@ static Il2CppMethodPointer s_methodPointers[287] =
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42,
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19,
 };
-static const int32_t s_InvokerIndices[287] = 
+static const int32_t s_InvokerIndices[288] = 
 {
 	7702,
 	11926,
 	6023,
 	7559,
+	7702,
 	7702,
 	7702,
 	7702,
@@ -883,7 +886,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	287,
+	288,
 	s_methodPointers,
 	0,
 	NULL,

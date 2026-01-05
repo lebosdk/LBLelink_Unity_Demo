@@ -9,6 +9,8 @@
 #import "SampleHandler.h"
 #import <LBReplayKitExtension/LBReplayKitExtension.h>
 
+#define NSLog(fmt, ...) NSLog((@"ExtensionLog : <%@>: %s " "%d行 : " fmt), [NSThread currentThread], __FUNCTION__, __LINE__, ##__VA_ARGS__);
+
 @interface SampleHandler ()<LBLelinkMirrorExtensionDelegate>
 
 @end
