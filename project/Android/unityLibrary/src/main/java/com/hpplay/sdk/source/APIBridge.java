@@ -27,6 +27,7 @@ public class APIBridge {
     private List<LelinkServiceInfo> mCacheList = new ArrayList<>();
     private String mDeviceListStringArr = "";
     private INotifyUnity unityCallback;
+    private String mDeviceName = "";
 
     // 私有构造函数
     private APIBridge() {
@@ -135,6 +136,11 @@ public class APIBridge {
 
 
     public void connect(String name) {
+        if (TextUtils.isEmpty(name)) {
+            SourceLog.w(TAG, "connect deviceName is empty");
+            return;
+        }
+        mDeviceName = name;
         LelinkServiceInfo serviceInfo = getServiceInfo(name);
         if (serviceInfo == null) {
             SourceLog.w(TAG, "connect serviceInfo is null");
@@ -148,8 +154,12 @@ public class APIBridge {
 
     }
 
-    public void startMirror(String name) {
-        LelinkServiceInfo serviceInfo = getServiceInfo(name);
+    public void startMirror() {
+        if (TextUtils.isEmpty(mDeviceName)) {
+            SourceLog.w(TAG, "don't have device to start mirror");
+            return;
+        }
+        LelinkServiceInfo serviceInfo = getServiceInfo(mDeviceName);
         if (serviceInfo == null) {
             SourceLog.w(TAG, "startMirror serviceInfo is null");
             return;
